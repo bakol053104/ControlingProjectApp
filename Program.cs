@@ -17,7 +17,6 @@ Console.WriteLine($"Lista projektów:");
 WriteAllToConsole(projectsRepository);
 Console.ReadKey();
 
-
 static void AddEmployees(IRepository<Employee> employeesrepository)
 {
     employeesrepository.Add(new Employee
@@ -55,7 +54,6 @@ static void AddEmployees(IRepository<Employee> employeesrepository)
         JobPositon = JobPosition.Engineer,
         EmploymentDate = new DateOnly(1995, 05, 05)
     });
-
     employeesrepository.Save();
 }
 
