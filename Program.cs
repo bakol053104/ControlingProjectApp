@@ -85,8 +85,6 @@ static void AddProjects(IRepository<Project> projectsrepository)
         BeginDate = new DateOnly(1993, 03, 03),
         EndDate = new DateOnly(1995, 03, 03)
     });
-
-
     projectsrepository.Save();
 }
 
