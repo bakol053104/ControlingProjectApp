@@ -24,35 +24,40 @@ static void AddEmployees(IRepository<Employee> employeesrepository)
         FirstName = "Imie1",
         LastName = "Nazwisko1",
         JobPositon = JobPosition.Employee,
-        EmploymentDate = new DateOnly(1980, 01, 04)
+        EmploymentDate = new DateOnly(1980, 01, 04),
+        HourlyRate = SetHourlyRate(JobPosition.Employee)
     });
     employeesrepository.Add(new Employee
     {
         FirstName = "Imie2",
         LastName = "Nazwisko2",
         JobPositon = JobPosition.Engineer,
-        EmploymentDate = new DateOnly(1992, 02, 02)
+        EmploymentDate = new DateOnly(1992, 02, 02),
+        HourlyRate = SetHourlyRate(JobPosition.Engineer)
     });
     employeesrepository.Add(new Employee
     {
         FirstName = "Imie3",
         LastName = "Nazwisko3",
         JobPositon = JobPosition.Manager,
-        EmploymentDate = new DateOnly(1993, 03, 03)
+        EmploymentDate = new DateOnly(1993, 03, 03),
+        HourlyRate = SetHourlyRate(JobPosition.Manager)
     });
     employeesrepository.Add(new Employee
     {
         FirstName = "Imie4",
         LastName = "Nazwisko4",
         JobPositon = JobPosition.Supervisor,
-        EmploymentDate = new DateOnly(1994, 04, 04)
+        EmploymentDate = new DateOnly(1994, 04, 04),
+        HourlyRate = SetHourlyRate(JobPosition.Supervisor)
     });
     employeesrepository.Add(new Employee
     {
         FirstName = "Imie5",
         LastName = "Nazwisko5",
         JobPositon = JobPosition.Engineer,
-        EmploymentDate = new DateOnly(1995, 05, 05)
+        EmploymentDate = new DateOnly(1995, 05, 05),
+        HourlyRate = SetHourlyRate(JobPosition.Engineer)
     });
     employeesrepository.Save();
 }
@@ -86,7 +91,6 @@ static void AddProjects(IRepository<Project> projectsrepository)
     projectsrepository.Save();
 }
 
-
 static void WriteAllToConsole(IReadRepository<EntityBase> repository)
 {
     var items = repository.GetAll();
@@ -97,3 +101,23 @@ static void WriteAllToConsole(IReadRepository<EntityBase> repository)
 
 }
 
+static decimal SetHourlyRate(JobPosition jobposition)
+{
+    var hourly = 0.0m; ;
+    switch (jobposition)
+    {
+        case JobPosition.Employee:
+            hourly = 100.0m;
+            break;
+        case JobPosition.Engineer:
+            hourly = 200.0m;
+            break;
+        case JobPosition.Manager:
+            hourly = 300.0m;
+            break;
+        case JobPosition.Supervisor:
+            hourly = 400.0m;
+            break;
+    }
+    return hourly;
+}

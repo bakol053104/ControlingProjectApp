@@ -4,19 +4,19 @@ namespace ControlingProjectApp.Entities
 {
     public class Project : EntityBase
     {
-        public string? Name { get; init; }
+        public string? Name { get; set; }
 
-        public string? Description { get; init; }
+        public string? Description { get; set; }
 
-        public decimal Budget { get; init; }
+        public decimal Budget { get; set; }
 
-        public DateOnly BeginDate { get; init; }
+        public DateOnly BeginDate { get; set; }
 
-        public DateOnly EndDate { get; init; }
+        public DateOnly EndDate { get; set; }
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
+            var sb = new StringBuilder();
             sb.AppendLine($"ID:\t\t\t{Id}");
             sb.AppendLine($"Project Name:\t\t{Name}");
             sb.AppendLine($"Description:\t\t{Description}");

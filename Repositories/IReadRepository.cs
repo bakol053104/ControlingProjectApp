@@ -6,6 +6,6 @@ namespace ControlingProjectApp
     {
         IEnumerable<T> GetAll();
 
-        T GetById(int id);
+        T? GetById(int id);
     }
 }

@@ -1,5 +1,4 @@
-﻿
-namespace ControlingProjectApp.Entities
+﻿namespace ControlingProjectApp.Entities
 {
     public abstract class EntityBase : IEntity
     {

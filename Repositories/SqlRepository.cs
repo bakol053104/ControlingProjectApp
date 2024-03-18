@@ -3,7 +3,7 @@ using ControlingProjectApp.Entities;
 
 namespace ControlingProjectApp.Repositories
 {
-    public class SqlRepository<T> : IRepository<T?> where T : class, IEntity, new()
+    public class SqlRepository<T> : IRepository<T> where T : class, IEntity, new()
     {
         private readonly DbSet<T> _dbSet;
         private readonly DbContext _dbContext;
