@@ -11,8 +11,8 @@ namespace ControlingProjectApp.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseInMemoryDatabase("StorageAppDb");
+            optionsBuilder.UseSqlServer(@"Server = (localdb)\mssqllocaldb;Database=ControlingProject");
         }
+      
     }
 }
