@@ -1,7 +1,6 @@
-﻿namespace ControlingProjectApp.Entities
+﻿namespace ControlingProjectApp.Entities;
+
+public abstract class EntityBase : IEntity
 {
-    public abstract class EntityBase : IEntity
-    {
-        public int Id { get; set; }
-    }
+    public int Id { get; set; }
 }

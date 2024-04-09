@@ -1,10 +1,9 @@
-﻿namespace ControlingProjectApp.Entities
+﻿namespace ControlingProjectApp.Entities;
+
+public enum JobPosition
 {
-    public enum JobPosition
-    {
-        Employee = 1,
-        Engineer = 2,
-        Manager = 3,
-        Supervisor = 4,
-    }
+    Employee = 1,
+    Engineer = 2,
+    Manager = 3,
+    Supervisor = 4,
 }
