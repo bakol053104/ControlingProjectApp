@@ -1,11 +1,10 @@
 ﻿using ControlingProjectApp.Data;
 
-namespace ControlingProjectApp.Services.ProviderData;
+namespace ControlingProjectApp.Components.ProviderData;
 
 public class DataProviderSql : DataProvider, IDataProviderSql
 {
     private readonly ControlingProjectAppDbContext _dbContext;
-
 
     public DataProviderSql(ControlingProjectAppDbContext dbContext)
     {

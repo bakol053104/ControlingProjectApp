@@ -3,11 +3,13 @@
 public class UserMenu : IUserMenu
 {
     private readonly IUserSubMenu _userSubMenu;
+    private readonly IUserCarsMenu _userCarsMenu;
     private readonly IEventSet _eventSet;
 
-    public UserMenu(IUserSubMenu userSubMenu, IEventSet eventSet)
+    public UserMenu(IUserSubMenu userSubMenu, IUserCarsMenu userCarsMenu, IEventSet eventSet)
     {
         _userSubMenu = userSubMenu;
+        _userCarsMenu = userCarsMenu;
         _eventSet = eventSet;
     }
 
@@ -28,6 +30,7 @@ public class UserMenu : IUserMenu
             Console.WriteLine($"\t3   - Szukaj dane \n");
             Console.WriteLine($"\t4   - Usuń dane \n");
             Console.WriteLine($"\t5   - Zapytania o dane \n");
+            Console.WriteLine($"\t6   - Zadania moduł 4 (samochody) \n");
             Console.WriteLine($"\tQ/q - Wyjdż z programu\n");
             Console.WriteLine($"\t=====================================================================\n");
             Console.Write($"\tWybierz odpowiednią opcję: ");
@@ -42,6 +45,9 @@ public class UserMenu : IUserMenu
                 case "4":
                 case "5":
                     _userSubMenu.UserSubMenuSelect(menuOption);
+                    break;
+                case "6":
+                    _userCarsMenu.UserCarsMenuSelect();
                     break;
                 case "Q":
                 case "q":

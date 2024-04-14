@@ -1,8 +1,8 @@
-﻿using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
 
 namespace ControlingProjectApp.Services;
 
-    public abstract class CalculationDataBase
+public abstract class CalculationDataBase
     {
         protected static decimal SetHourlyRate(JobPosition jobposition)
         {

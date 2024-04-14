@@ -1,5 +1,5 @@
-﻿using ControlingProjectApp.Data.Repositories;
-using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
+using ControlingProjectApp.Data.Repositories;
 
 namespace ControlingProjectApp.Services;
 
@@ -128,7 +128,7 @@ public abstract class ItemDataBase : UserSubMenuBase
         }
     }
 
-    protected static void Paging<T>(string titlestring, int numberposition, IEnumerable<T> list) where T : class, IEntity
+    protected static void Paging<T>(string titlestring, int numberposition, IEnumerable<T> list) 
     {
         var quantity = list.Count();
         var index = 0;
@@ -141,7 +141,7 @@ public abstract class ItemDataBase : UserSubMenuBase
             items = list.Skip(index).Take(numberposition).ToList();
             foreach (var item in items)
             {
-                Console.WriteLine($"{position}.{item}");
+                Console.WriteLine($"{position}.\t{item}");
                 position++;
             }
             WaitForKeyPress();

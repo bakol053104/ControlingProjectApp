@@ -1,4 +1,4 @@
-﻿namespace ControlingProjectApp.Entities;
+﻿namespace ControlingProjectApp.Data.Entities;
 
 public interface IEntity
 {

@@ -1,4 +1,4 @@
-﻿namespace ControlingProjectApp.Services.ProviderData;
+﻿namespace ControlingProjectApp.Components.ProviderData;
 
 public interface IDataProviderSql
 {

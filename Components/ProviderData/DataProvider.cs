@@ -1,6 +1,7 @@
-﻿using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
+using ControlingProjectApp.Services;
 
-namespace ControlingProjectApp.Services.ProviderData;
+namespace ControlingProjectApp.Components.ProviderData;
 
 public abstract class DataProvider : UserSubMenuBase
 {

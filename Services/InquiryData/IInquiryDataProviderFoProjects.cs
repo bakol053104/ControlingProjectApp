@@ -1,4 +1,4 @@
-﻿using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
 
 namespace ControlingProjectApp.Services.InquiryData;
 

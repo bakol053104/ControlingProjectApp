@@ -1,0 +1,1466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manufacturers>
+  <Manufacturer Name="Acura" Country="Japan">
+    <Cars Country="Japan" CombinedSum="294">
+      <Car>
+        <Car Model="ILX" Combined="29" />
+        <Car Model="TLX 2WD" Combined="28" />
+        <Car Model="TLX 2WD" Combined="25" />
+        <Car Model="TLX 4WD" Combined="25" />
+        <Car Model="RLX" Combined="30" />
+        <Car Model="RLX" Combined="24" />
+        <Car Model="MDX 2WD" Combined="22" />
+        <Car Model="MDX 2WD" Combined="23" />
+        <Car Model="RDX 2WD" Combined="23" />
+        <Car Model="MDX 4WD" Combined="22" />
+        <Car Model="MDX 4WD" Combined="21" />
+        <Car Model="RDX 4WD" Combined="22" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="ALFA ROMEO" Country="Italy">
+    <Cars Country="Italy" CombinedSum="28">
+      <Car>
+        <Car Model="4C" Combined="28" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Aston Martin Lagonda Ltd" Country="UK">
+    <Cars Country="UK" CombinedSum="155">
+      <Car>
+        <Car Model="V12 Vantage S" Combined="14" />
+        <Car Model="V8 Vantage" Combined="16" />
+        <Car Model="V8 Vantage" Combined="15" />
+        <Car Model="V8 Vantage S" Combined="16" />
+        <Car Model="V8 Vantage S" Combined="15" />
+        <Car Model="Vantage GT" Combined="16" />
+        <Car Model="Vantage GT" Combined="15" />
+        <Car Model="DB9" Combined="15" />
+        <Car Model="Vanquish" Combined="16" />
+        <Car Model="Rapide S" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Audi" Country="Germany">
+    <Cars Country="Germany" CombinedSum="983">
+      <Car>
+        <Car Model="TT Roadster quattro" Combined="26" />
+        <Car Model="A3" Combined="27" />
+        <Car Model="A3 Cabriolet" Combined="28" />
+        <Car Model="A3 Cabriolet quattro" Combined="26" />
+        <Car Model="A3 quattro" Combined="27" />
+        <Car Model="A5 Cabriolet quattro" Combined="24" />
+        <Car Model="A5 quattro" Combined="25" />
+        <Car Model="A5 quattro" Combined="26" />
+        <Car Model="S3" Combined="26" />
+        <Car Model="S5" Combined="21" />
+        <Car Model="S5" Combined="20" />
+        <Car Model="S5 Cabriolet" Combined="21" />
+        <Car Model="TT Coupe quattro" Combined="26" />
+        <Car Model="TTS Coupe" Combined="25" />
+        <Car Model="A4" Combined="27" />
+        <Car Model="A4 quattro" Combined="25" />
+        <Car Model="A4 quattro" Combined="26" />
+        <Car Model="Q3" Combined="23" />
+        <Car Model="Q3 quattro" Combined="23" />
+        <Car Model="S4" Combined="21" />
+        <Car Model="S4" Combined="20" />
+        <Car Model="A6" Combined="28" />
+        <Car Model="A6 quattro" Combined="26" />
+        <Car Model="A6 quattro" Combined="30" />
+        <Car Model="A6 quattro" Combined="24" />
+        <Car Model="A7 quattro" Combined="30" />
+        <Car Model="A7 quattro" Combined="24" />
+        <Car Model="RS7" Combined="18" />
+        <Car Model="S6" Combined="21" />
+        <Car Model="S7" Combined="21" />
+        <Car Model="S8" Combined="19" />
+        <Car Model="A8L" Combined="28" />
+        <Car Model="A8L" Combined="22" />
+        <Car Model="A8L" Combined="22" />
+        <Car Model="A8L" Combined="17" />
+        <Car Model="allroad quattro" Combined="24" />
+        <Car Model="Q5" Combined="23" />
+        <Car Model="Q5" Combined="27" />
+        <Car Model="Q5" Combined="21" />
+        <Car Model="Q5 Hybrid" Combined="26" />
+        <Car Model="SQ5" Combined="19" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Bentley" Country="UK">
+    <Cars Country="UK" CombinedSum="111">
+      <Car>
+        <Car Model="Continental GT Convertible" Combined="17" />
+        <Car Model="Continental GT Convertible" Combined="15" />
+        <Car Model="Continental GT" Combined="19" />
+        <Car Model="Continental GT" Combined="15" />
+        <Car Model="Flying Spur" Combined="17" />
+        <Car Model="Flying Spur" Combined="15" />
+        <Car Model="Mulsanne" Combined="13" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="BMW" Country="Germany">
+    <Cars Country="Germany" CombinedSum="2455">
+      <Car>
+        <Car Model="M4 GTS" Combined="19" />
+        <Car Model="Z4 sDrive28i" Combined="26" />
+        <Car Model="Z4 sDrive28i" Combined="26" />
+        <Car Model="Z4 sDrive35i" Combined="20" />
+        <Car Model="Z4 sDrive35is" Combined="20" />
+        <Car Model="228i" Combined="27" />
+        <Car Model="228i" Combined="26" />
+        <Car Model="228i Convertible" Combined="27" />
+        <Car Model="228i xDrive" Combined="27" />
+        <Car Model="228i xDrive Convertible" Combined="26" />
+        <Car Model="428i Convertible" Combined="27" />
+        <Car Model="428i xDrive Convertible" Combined="25" />
+        <Car Model="435i Convertible" Combined="24" />
+        <Car Model="435i xDrive Convertible" Combined="23" />
+        <Car Model="640i Convertible" Combined="24" />
+        <Car Model="640i Coupe" Combined="24" />
+        <Car Model="640i xDrive Convertible" Combined="23" />
+        <Car Model="640i xDrive Coupe" Combined="23" />
+        <Car Model="650i Convertible" Combined="20" />
+        <Car Model="650i Coupe" Combined="20" />
+        <Car Model="650i xDrive Convertible" Combined="18" />
+        <Car Model="650i xDrive Coupe" Combined="19" />
+        <Car Model="M2" Combined="23" />
+        <Car Model="M2" Combined="21" />
+        <Car Model="M235i" Combined="24" />
+        <Car Model="M235i" Combined="22" />
+        <Car Model="M235i Convertible" Combined="24" />
+        <Car Model="M235i Convertible" Combined="22" />
+        <Car Model="M235i xDrive" Combined="23" />
+        <Car Model="M235i xDrive Convertible" Combined="23" />
+        <Car Model="M4 Convertible" Combined="19" />
+        <Car Model="M4 Convertible" Combined="20" />
+        <Car Model="M6 Convertible" Combined="16" />
+        <Car Model="M6 Convertible" Combined="17" />
+        <Car Model="M6 Coupe" Combined="16" />
+        <Car Model="M6 Coupe" Combined="17" />
+        <Car Model="320i" Combined="28" />
+        <Car Model="320i" Combined="28" />
+        <Car Model="320i xDrive" Combined="27" />
+        <Car Model="328d" Combined="36" />
+        <Car Model="328d xDrive" Combined="34" />
+        <Car Model="328i" Combined="27" />
+        <Car Model="328i" Combined="26" />
+        <Car Model="328i xDrive" Combined="26" />
+        <Car Model="340i" Combined="26" />
+        <Car Model="340i" Combined="23" />
+        <Car Model="340i xDrive" Combined="26" />
+        <Car Model="340i xDrive" Combined="23" />
+        <Car Model="428i Coupe" Combined="27" />
+        <Car Model="428i Coupe" Combined="26" />
+        <Car Model="428i Gran Coupe" Combined="27" />
+        <Car Model="428i xDrive Coupe" Combined="26" />
+        <Car Model="428i xDrive Gran Coupe" Combined="26" />
+        <Car Model="435i Coupe" Combined="24" />
+        <Car Model="435i Coupe" Combined="23" />
+        <Car Model="435i Gran Coupe" Combined="24" />
+        <Car Model="435i xDrive Coupe" Combined="23" />
+        <Car Model="435i xDrive Coupe" Combined="22" />
+        <Car Model="435i xDrive Gran Coupe" Combined="23" />
+        <Car Model="640i Gran Coupe" Combined="24" />
+        <Car Model="640i xDrive Gran Coupe" Combined="23" />
+        <Car Model="650i Gran Coupe" Combined="20" />
+        <Car Model="650i xDrive Gran Coupe" Combined="18" />
+        <Car Model="Alpina B6 Gran Coupe xDrive" Combined="18" />
+        <Car Model="M3" Combined="19" />
+        <Car Model="M3" Combined="20" />
+        <Car Model="M4 Coupe" Combined="19" />
+        <Car Model="M4 Coupe" Combined="20" />
+        <Car Model="M6 Gran Coupe" Combined="16" />
+        <Car Model="M6 Gran Coupe" Combined="17" />
+        <Car Model="528i" Combined="27" />
+        <Car Model="528i xDrive" Combined="26" />
+        <Car Model="535d" Combined="30" />
+        <Car Model="535d xDrive" Combined="30" />
+        <Car Model="535i" Combined="24" />
+        <Car Model="535i xDrive" Combined="23" />
+        <Car Model="550i" Combined="20" />
+        <Car Model="550i xDrive" Combined="19" />
+        <Car Model="ActiveHybrid 5" Combined="26" />
+        <Car Model="M5" Combined="16" />
+        <Car Model="M5" Combined="17" />
+        <Car Model="328i xDrive Gran Turismo" Combined="26" />
+        <Car Model="335i xDrive Gran Turismo" Combined="23" />
+        <Car Model="535i Gran Turismo" Combined="22" />
+        <Car Model="535i xDrive Gran Turismo" Combined="21" />
+        <Car Model="740i" Combined="24" />
+        <Car Model="750i" Combined="20" />
+        <Car Model="750i xDrive" Combined="19" />
+        <Car Model="X1 xDrive28i" Combined="26" />
+        <Car Model="328d xDrive Sports Wagon" Combined="34" />
+        <Car Model="328i xDrive Sports Wagon" Combined="26" />
+        <Car Model="X3 sDrive 28i" Combined="24" />
+        <Car Model="X3 xDrive28d" Combined="30" />
+        <Car Model="X3 xDrive28i" Combined="24" />
+        <Car Model="X3 xDrive35i" Combined="22" />
+        <Car Model="X4 M40i" Combined="21" />
+        <Car Model="X4 xDrive28i" Combined="23" />
+        <Car Model="X4 xDrive35i" Combined="22" />
+        <Car Model="X5 sDrive35i" Combined="21" />
+        <Car Model="X6 sDrive35i" Combined="21" />
+        <Car Model="X5 M" Combined="16" />
+        <Car Model="X5 xDrive 35d" Combined="26" />
+        <Car Model="X5 xDrive35i" Combined="20" />
+        <Car Model="X5 xDrive50i" Combined="17" />
+        <Car Model="X6 M" Combined="16" />
+        <Car Model="X6 xDrive35i" Combined="20" />
+        <Car Model="X6 xDrive50i" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Buick" Country="USA">
+    <Cars Country="USA" CombinedSum="480">
+      <Car>
+        <Car Model="CASCADA" Combined="23" />
+        <Car Model="VERANO" Combined="24" />
+        <Car Model="VERANO" Combined="24" />
+        <Car Model="VERANO" Combined="25" />
+        <Car Model="LACROSSE" Combined="29" />
+        <Car Model="LACROSSE" Combined="22" />
+        <Car Model="LACROSSE" Combined="21" />
+        <Car Model="LACROSSE AWD" Combined="20" />
+        <Car Model="REGAL" Combined="24" />
+        <Car Model="REGAL" Combined="24" />
+        <Car Model="REGAL" Combined="29" />
+        <Car Model="REGAL" Combined="23" />
+        <Car Model="REGAL AWD" Combined="22" />
+        <Car Model="ENCORE" Combined="30" />
+        <Car Model="ENCORE" Combined="28" />
+        <Car Model="ENCORE AWD" Combined="29" />
+        <Car Model="ENCORE AWD" Combined="26" />
+        <Car Model="ENVISION AWD" Combined="22" />
+        <Car Model="ENCLAVE FWD" Combined="18" />
+        <Car Model="ENCLAVE AWD" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Cadillac" Country="USA">
+    <Cars Country="USA" CombinedSum="548">
+      <Car>
+        <Car Model="ATS" Combined="26" />
+        <Car Model="ATS" Combined="23" />
+        <Car Model="ATS" Combined="26" />
+        <Car Model="ATS" Combined="24" />
+        <Car Model="ATS AWD" Combined="25" />
+        <Car Model="ATS AWD" Combined="22" />
+        <Car Model="ATS-V" Combined="19" />
+        <Car Model="ATS-V" Combined="19" />
+        <Car Model="CTS SEDAN" Combined="25" />
+        <Car Model="CTS SEDAN" Combined="24" />
+        <Car Model="CTS SEDAN" Combined="19" />
+        <Car Model="CTS SEDAN AWD" Combined="24" />
+        <Car Model="CTS SEDAN AWD" Combined="22" />
+        <Car Model="CTS-V" Combined="17" />
+        <Car Model="CT6" Combined="25" />
+        <Car Model="CT6 AWD" Combined="21" />
+        <Car Model="CT6 AWD" Combined="22" />
+        <Car Model="XTS" Combined="22" />
+        <Car Model="XTS AWD" Combined="20" />
+        <Car Model="XTS AWD" Combined="18" />
+        <Car Model="XTS HEARSE" Combined="17" />
+        <Car Model="XTS LIMO" Combined="17" />
+        <Car Model="ESCALADE 2WD" Combined="17" />
+        <Car Model="SRX" Combined="19" />
+        <Car Model="ESCALADE 4WD" Combined="17" />
+        <Car Model="SRX AWD" Combined="18" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Chevrolet" Country="USA">
+    <Cars Country="USA" CombinedSum="2012">
+      <Car>
+        <Car Model="CORVETTE" Combined="16" />
+        <Car Model="CORVETTE" Combined="20" />
+        <Car Model="CORVETTE" Combined="18" />
+        <Car Model="CORVETTE" Combined="21" />
+        <Car Model="SPARK" Combined="35" />
+        <Car Model="SPARK" Combined="34" />
+        <Car Model="CAMARO" Combined="25" />
+        <Car Model="CAMARO" Combined="24" />
+        <Car Model="CAMARO" Combined="23" />
+        <Car Model="CAMARO" Combined="21" />
+        <Car Model="CAMARO" Combined="20" />
+        <Car Model="CAMARO" Combined="19" />
+        <Car Model="CRUZE" Combined="35" />
+        <Car Model="CRUZE" Combined="33" />
+        <Car Model="CRUZE PREMIER" Combined="34" />
+        <Car Model="SONIC" Combined="31" />
+        <Car Model="SONIC" Combined="33" />
+        <Car Model="SONIC" Combined="28" />
+        <Car Model="SONIC" Combined="30" />
+        <Car Model="SONIC RS" Combined="28" />
+        <Car Model="SONIC RS" Combined="30" />
+        <Car Model="CRUZE LIMITED" Combined="30" />
+        <Car Model="CRUZE LIMITED" Combined="30" />
+        <Car Model="CRUZE LIMITED" Combined="27" />
+        <Car Model="CRUZE LIMITED" Combined="29" />
+        <Car Model="CRUZE LIMITED ECO" Combined="31" />
+        <Car Model="CRUZE LIMITED ECO" Combined="33" />
+        <Car Model="Impala Bi-Fuel (CNG)" Combined="20" />
+        <Car Model="MALIBU" Combined="31" />
+        <Car Model="MALIBU" Combined="46" />
+        <Car Model="MALIBU" Combined="26" />
+        <Car Model="MALIBU LIMITED" Combined="27" />
+        <Car Model="SONIC 5 RS" Combined="28" />
+        <Car Model="SONIC 5 RS" Combined="30" />
+        <Car Model="IMPALA" Combined="25" />
+        <Car Model="IMPALA" Combined="22" />
+        <Car Model="IMPALA" Combined="22" />
+        <Car Model="IMPALA LIMITED" Combined="22" />
+        <Car Model="SS" Combined="16" />
+        <Car Model="SS" Combined="17" />
+        <Car Model="SONIC 5" Combined="31" />
+        <Car Model="SONIC 5" Combined="33" />
+        <Car Model="SONIC 5" Combined="28" />
+        <Car Model="SONIC 5" Combined="30" />
+        <Car Model="COLORADO 2WD" Combined="22" />
+        <Car Model="COLORADO 2WD" Combined="22" />
+        <Car Model="COLORADO 2WD" Combined="25" />
+        <Car Model="COLORADO 2WD" Combined="21" />
+        <Car Model="COLORADO 4WD" Combined="21" />
+        <Car Model="COLORADO 4WD" Combined="23" />
+        <Car Model="COLORADO 4WD" Combined="20" />
+        <Car Model="C15 SILVERADO 2WD" Combined="20" />
+        <Car Model="C15 SILVERADO 2WD" Combined="19" />
+        <Car Model="C15 SILVERADO 2WD" Combined="19" />
+        <Car Model="C15 SILVERADO 2WD" Combined="20" />
+        <Car Model="C15 SILVERADO 2WD" Combined="18" />
+        <Car Model="C15 SILVERADO 2WD" Combined="17" />
+        <Car Model="K15 SILVERADO 4WD" Combined="19" />
+        <Car Model="K15 SILVERADO 4WD" Combined="18" />
+        <Car Model="K15 SILVERADO 4WD" Combined="18" />
+        <Car Model="K15 SILVERADO 4WD" Combined="18" />
+        <Car Model="K15 SILVERADO 4WD" Combined="17" />
+        <Car Model="K15 SILVERADO 4WD" Combined="17" />
+        <Car Model="G2500 EXPRESS 2WD PASS MDPV" Combined="13" />
+        <Car Model="G3500 EXPRESS 2WD PASS MDPV" Combined="12" />
+        <Car Model="C15 SILVERADO 2WD CAB CHASSIS" Combined="17" />
+        <Car Model="COLORADO CAB CHASSIS 2WD" Combined="16" />
+        <Car Model="K15 SILVERADO 4WD CAB CHASSIS" Combined="17" />
+        <Car Model="EQUINOX FWD" Combined="26" />
+        <Car Model="EQUINOX FWD" Combined="26" />
+        <Car Model="EQUINOX FWD" Combined="20" />
+        <Car Model="TRAX" Combined="29" />
+        <Car Model="EQUINOX AWD" Combined="23" />
+        <Car Model="EQUINOX AWD" Combined="23" />
+        <Car Model="EQUINOX AWD" Combined="18" />
+        <Car Model="TRAX AWD" Combined="27" />
+        <Car Model="C1500 SUBURBAN 2WD" Combined="18" />
+        <Car Model="C1500 SUBURBAN 2WD" Combined="18" />
+        <Car Model="C1500 TAHOE 2WD" Combined="18" />
+        <Car Model="C1500 TAHOE 2WD" Combined="18" />
+        <Car Model="TRAVERSE FWD" Combined="18" />
+        <Car Model="K1500 SUBURBAN 4WD" Combined="18" />
+        <Car Model="K1500 SUBURBAN 4WD" Combined="18" />
+        <Car Model="K1500 TAHOE 4WD" Combined="18" />
+        <Car Model="K1500 TAHOE 4WD" Combined="18" />
+        <Car Model="TRAVERSE AWD" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="CHEVROLET" Country="USA">
+    <Cars Country="USA" CombinedSum="25">
+      <Car>
+        <Car Model="City Express Cargo Van" Combined="25" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Chrysler" Country="USA">
+    <Cars Country="USA" CombinedSum="248">
+      <Car>
+        <Car Model="200" Combined="28" />
+        <Car Model="200" Combined="28" />
+        <Car Model="200" Combined="23" />
+        <Car Model="200 AWD" Combined="22" />
+        <Car Model="300" Combined="23" />
+        <Car Model="300" Combined="23" />
+        <Car Model="300" Combined="19" />
+        <Car Model="300 AWD" Combined="21" />
+        <Car Model="300 AWD" Combined="21" />
+        <Car Model="Town &amp; Country" Combined="20" />
+        <Car Model="Town &amp; Country" Combined="20" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Dodge" Country="USA">
+    <Cars Country="USA" CombinedSum="770">
+      <Car>
+        <Car Model="Viper SRT" Combined="15" />
+        <Car Model="Challenger" Combined="23" />
+        <Car Model="Challenger" Combined="19" />
+        <Car Model="Challenger" Combined="18" />
+        <Car Model="Challenger" Combined="18" />
+        <Car Model="Challenger" Combined="17" />
+        <Car Model="Challenger SRT8" Combined="16" />
+        <Car Model="Challenger SRT8" Combined="16" />
+        <Car Model="Challenger SRT8" Combined="18" />
+        <Car Model="Challenger SRT8" Combined="17" />
+        <Car Model="Dart" Combined="31" />
+        <Car Model="Dart" Combined="27" />
+        <Car Model="Dart" Combined="29" />
+        <Car Model="Dart" Combined="27" />
+        <Car Model="Dart" Combined="27" />
+        <Car Model="Dart Aero" Combined="32" />
+        <Car Model="Dart Aero" Combined="32" />
+        <Car Model="Dart GT" Combined="26" />
+        <Car Model="Dart GT" Combined="27" />
+        <Car Model="Charger" Combined="23" />
+        <Car Model="Charger" Combined="23" />
+        <Car Model="Charger" Combined="19" />
+        <Car Model="Charger" Combined="18" />
+        <Car Model="Charger AWD" Combined="21" />
+        <Car Model="Charger AWD" Combined="21" />
+        <Car Model="Charger SRT8" Combined="16" />
+        <Car Model="Charger SRT8" Combined="18" />
+        <Car Model="Grand Caravan" Combined="20" />
+        <Car Model="Grand Caravan" Combined="20" />
+        <Car Model="Journey" Combined="21" />
+        <Car Model="Journey" Combined="19" />
+        <Car Model="Journey AWD" Combined="19" />
+        <Car Model="Durango RWD" Combined="22" />
+        <Car Model="Durango RWD" Combined="17" />
+        <Car Model="Durango AWD" Combined="21" />
+        <Car Model="Durango AWD" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Ferrari" Country="Italy">
+    <Cars Country="Italy" CombinedSum="176">
+      <Car>
+        <Car Model="488 GTB" Combined="18" />
+        <Car Model="488 GTB" Combined="18" />
+        <Car Model="F12" Combined="13" />
+        <Car Model="F12" Combined="13" />
+        <Car Model="F12 tdf" Combined="13" />
+        <Car Model="F12 tdf" Combined="12" />
+        <Car Model="F60 America" Combined="13" />
+        <Car Model="F60 America" Combined="13" />
+        <Car Model="California T" Combined="19" />
+        <Car Model="California T" Combined="18" />
+        <Car Model="FF" Combined="13" />
+        <Car Model="FF" Combined="13" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="FIAT" Country="Italy">
+    <Cars Country="Italy" CombinedSum="308">
+      <Car>
+        <Car Model="500" Combined="27" />
+        <Car Model="500" Combined="30" />
+        <Car Model="500" Combined="30" />
+        <Car Model="500" Combined="34" />
+        <Car Model="500 Abarth" Combined="27" />
+        <Car Model="500 Abarth" Combined="30" />
+        <Car Model="500L" Combined="25" />
+        <Car Model="500L" Combined="28" />
+        <Car Model="500X" Combined="28" />
+        <Car Model="500X" Combined="25" />
+        <Car Model="500X AWD" Combined="24" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Ford" Country="USA">
+    <Cars Country="USA" CombinedSum="1966">
+      <Car>
+        <Car Model="Fiesta FWD" Combined="31" />
+        <Car Model="Fiesta FWD" Combined="31" />
+        <Car Model="Fiesta SFE FWD" Combined="36" />
+        <Car Model="MUSTANG" Combined="25" />
+        <Car Model="MUSTANG" Combined="25" />
+        <Car Model="MUSTANG" Combined="22" />
+        <Car Model="MUSTANG" Combined="21" />
+        <Car Model="MUSTANG" Combined="19" />
+        <Car Model="MUSTANG" Combined="19" />
+        <Car Model="MUSTANG CONVERTIBLE" Combined="24" />
+        <Car Model="MUSTANG CONVERTIBLE" Combined="18" />
+        <Car Model="SHELBY GT350 MUSTANG" Combined="16" />
+        <Car Model="Fiesta ST FWD" Combined="29" />
+        <Car Model="FOCUS FWD" Combined="32" />
+        <Car Model="FOCUS FWD" Combined="35" />
+        <Car Model="FOCUS FWD" Combined="31" />
+        <Car Model="FOCUS FWD" Combined="30" />
+        <Car Model="FOCUS FWD" Combined="30" />
+        <Car Model="Focus FWD FFV" Combined="31" />
+        <Car Model="Focus FWD FFV" Combined="30" />
+        <Car Model="Focus FWD FFV" Combined="30" />
+        <Car Model="FOCUS RS AWD" Combined="22" />
+        <Car Model="Focus ST FWD" Combined="25" />
+        <Car Model="FUSION AWD" Combined="25" />
+        <Car Model="FUSION FWD" Combined="28" />
+        <Car Model="FUSION FWD" Combined="29" />
+        <Car Model="FUSION FWD" Combined="26" />
+        <Car Model="FUSION FWD" Combined="26" />
+        <Car Model="FUSION HYBRID FWD" Combined="42" />
+        <Car Model="C-MAX Hybrid FWD" Combined="40" />
+        <Car Model="Special Service Police FWD" Combined="22" />
+        <Car Model="TAURUS AWD" Combined="19" />
+        <Car Model="TAURUS AWD" Combined="19" />
+        <Car Model="TAURUS AWD FFV" Combined="19" />
+        <Car Model="TAURUS FWD" Combined="23" />
+        <Car Model="TAURUS FWD" Combined="21" />
+        <Car Model="TAURUS FWD FFV" Combined="21" />
+        <Car Model="F150 2.7L 2WD GVWR&gt;6649 LBS PAYLOAD PACKAGE" Combined="21" />
+        <Car Model="F150 2WD" Combined="22" />
+        <Car Model="F150 2WD" Combined="20" />
+        <Car Model="F150 2WD FFV" Combined="20" />
+        <Car Model="F150 2WD FFV" Combined="18" />
+        <Car Model="F150 3.5L 2WD GVWR&gt;7599 LBS PAYLOAD PACKAGE" Combined="18" />
+        <Car Model="F150 5.0L 2WD FFV GVWR&gt;7599 LBS PAYLOAD PACKAGE" Combined="16" />
+        <Car Model="F150 2.7L 4WD GVWR&gt;6799 LBS PAYLOAD PACKAGE" Combined="19" />
+        <Car Model="F150 3.5L 4WD GVWR&gt;7599 LBS PAYLOAD PACKAGE" Combined="17" />
+        <Car Model="F150 4WD" Combined="20" />
+        <Car Model="F150 4WD" Combined="18" />
+        <Car Model="F150 4WD FFV" Combined="19" />
+        <Car Model="F150 4WD FFV" Combined="17" />
+        <Car Model="F150 5.0L 4WD FFV GVWR&gt;7599 LBS PAYLOAD PACKAGE" Combined="16" />
+        <Car Model="Transit T150 Wagon" Combined="16" />
+        <Car Model="Transit T150 Wagon FFV" Combined="16" />
+        <Car Model="Transit Connect Van 2WD" Combined="25" />
+        <Car Model="Transit Connect Van 2WD" Combined="23" />
+        <Car Model="TRANSIT CONNECT VAN FFV" Combined="23" />
+        <Car Model="TRANSIT CONNECT WAGON FFV" Combined="22" />
+        <Car Model="TRANSIT CONNECT WAGON FWD" Combined="25" />
+        <Car Model="TRANSIT CONNECT WAGON FWD" Combined="22" />
+        <Car Model="TRANSIT CONNECT WAGON LWB FFV" Combined="22" />
+        <Car Model="Transit Connect Wagon LWB FWD" Combined="22" />
+        <Car Model="EDGE FWD" Combined="24" />
+        <Car Model="EDGE FWD" Combined="24" />
+        <Car Model="EDGE FWD" Combined="21" />
+        <Car Model="ESCAPE FWD" Combined="26" />
+        <Car Model="ESCAPE FWD" Combined="25" />
+        <Car Model="ESCAPE FWD" Combined="25" />
+        <Car Model="EDGE AWD" Combined="23" />
+        <Car Model="EDGE AWD" Combined="20" />
+        <Car Model="EDGE AWD" Combined="20" />
+        <Car Model="ESCAPE AWD" Combined="25" />
+        <Car Model="ESCAPE AWD" Combined="23" />
+        <Car Model="Expedition 2WD" Combined="18" />
+        <Car Model="Expedition EL 2WD" Combined="17" />
+        <Car Model="EXPLORER FFV 2WD" Combined="20" />
+        <Car Model="EXPLORER FWD" Combined="22" />
+        <Car Model="EXPLORER FWD" Combined="20" />
+        <Car Model="Flex FWD" Combined="19" />
+        <Car Model="Expedition 4WD" Combined="17" />
+        <Car Model="Expedition EL 4WD" Combined="16" />
+        <Car Model="EXPLORER AWD" Combined="21" />
+        <Car Model="EXPLORER AWD" Combined="18" />
+        <Car Model="EXPLORER AWD" Combined="19" />
+        <Car Model="EXPLORER FFV AWD" Combined="19" />
+        <Car Model="FLEX AWD" Combined="18" />
+        <Car Model="FLEX AWD" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="GMC" Country="USA">
+    <Cars Country="USA" CombinedSum="808">
+      <Car>
+        <Car Model="CANYON 2WD" Combined="22" />
+        <Car Model="CANYON 2WD" Combined="22" />
+        <Car Model="CANYON 2WD" Combined="25" />
+        <Car Model="CANYON 2WD" Combined="21" />
+        <Car Model="CANYON 4WD" Combined="21" />
+        <Car Model="CANYON 4WD" Combined="23" />
+        <Car Model="CANYON 4WD" Combined="20" />
+        <Car Model="C15 SIERRA 2WD" Combined="20" />
+        <Car Model="C15 SIERRA 2WD" Combined="19" />
+        <Car Model="C15 SIERRA 2WD" Combined="19" />
+        <Car Model="C15 SIERRA 2WD" Combined="20" />
+        <Car Model="C15 SIERRA 2WD" Combined="18" />
+        <Car Model="C15 SIERRA 2WD" Combined="17" />
+        <Car Model="K15 SIERRA 4WD" Combined="19" />
+        <Car Model="K15 SIERRA 4WD" Combined="18" />
+        <Car Model="K15 SIERRA 4WD" Combined="18" />
+        <Car Model="K15 SIERRA 4WD" Combined="18" />
+        <Car Model="K15 SIERRA 4WD" Combined="17" />
+        <Car Model="K15 SIERRA 4WD" Combined="17" />
+        <Car Model="G2500 SAVANA 2WD PASS MDPV" Combined="13" />
+        <Car Model="G3500 SAVANA 2WD PASS MDPV" Combined="12" />
+        <Car Model="C15 SIERRA 2WD CAB CHASSIS" Combined="17" />
+        <Car Model="CANYON CAB CHASSIS 2WD" Combined="16" />
+        <Car Model="K15 SIERRA 4WD CAB CHASSIS" Combined="17" />
+        <Car Model="TERRAIN FWD" Combined="26" />
+        <Car Model="TERRAIN FWD" Combined="26" />
+        <Car Model="TERRAIN FWD" Combined="20" />
+        <Car Model="TERRAIN AWD" Combined="23" />
+        <Car Model="TERRAIN AWD" Combined="18" />
+        <Car Model="ACADIA FWD" Combined="18" />
+        <Car Model="C1500 YUKON 2WD" Combined="18" />
+        <Car Model="C1500 YUKON 2WD" Combined="18" />
+        <Car Model="C1500 YUKON 2WD" Combined="17" />
+        <Car Model="C1500 YUKON XL 2WD" Combined="18" />
+        <Car Model="C1500 YUKON XL 2WD" Combined="18" />
+        <Car Model="C1500 YUKON XL 2WD" Combined="17" />
+        <Car Model="ACADIA AWD" Combined="17" />
+        <Car Model="K1500 YUKON 4WD" Combined="18" />
+        <Car Model="K1500 YUKON 4WD" Combined="18" />
+        <Car Model="K1500 YUKON 4WD" Combined="17" />
+        <Car Model="K1500 YUKON XL 4WD" Combined="18" />
+        <Car Model="K1500 YUKON XL 4WD" Combined="18" />
+        <Car Model="K1500 YUKON XL 4WD" Combined="16" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Honda" Country="Japan">
+    <Cars Country="Japan" CombinedSum="850">
+      <Car>
+        <Car Model="CR-Z" Combined="37" />
+        <Car Model="CR-Z" Combined="34" />
+        <Car Model="CIVIC 2Dr" Combined="35" />
+        <Car Model="CIVIC 2Dr" Combined="34" />
+        <Car Model="CIVIC 2Dr" Combined="31" />
+        <Car Model="ACCORD" Combined="31" />
+        <Car Model="ACCORD" Combined="30" />
+        <Car Model="ACCORD" Combined="27" />
+        <Car Model="ACCORD" Combined="26" />
+        <Car Model="ACCORD" Combined="25" />
+        <Car Model="ACCORD" Combined="22" />
+        <Car Model="CIVIC 4Dr" Combined="35" />
+        <Car Model="CIVIC 4Dr" Combined="35" />
+        <Car Model="CIVIC 4Dr" Combined="31" />
+        <Car Model="FIT" Combined="36" />
+        <Car Model="FIT" Combined="35" />
+        <Car Model="FIT" Combined="32" />
+        <Car Model="ODYSSEY 2WD" Combined="22" />
+        <Car Model="CR-V 2WD" Combined="29" />
+        <Car Model="HR-V 2WD" Combined="31" />
+        <Car Model="HR-V 2WD" Combined="31" />
+        <Car Model="HR-V 2WD" Combined="28" />
+        <Car Model="PILOT 2WD" Combined="22" />
+        <Car Model="PILOT 2WD" Combined="23" />
+        <Car Model="CR-V 4WD" Combined="27" />
+        <Car Model="HR-V 4WD" Combined="29" />
+        <Car Model="HR-V 4WD" Combined="29" />
+        <Car Model="PILOT 4WD" Combined="21" />
+        <Car Model="PILOT 4WD" Combined="22" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="HYUNDAI MOTOR COMPANY" Country="South Korea">
+    <Cars Country="South Korea" CombinedSum="1115">
+      <Car>
+        <Car Model="Genesis Coupe" Combined="19" />
+        <Car Model="Genesis Coupe" Combined="19" />
+        <Car Model="Accent" Combined="30" />
+        <Car Model="Accent" Combined="31" />
+        <Car Model="Veloster" Combined="29" />
+        <Car Model="Veloster" Combined="31" />
+        <Car Model="Veloster" Combined="28" />
+        <Car Model="Veloster" Combined="30" />
+        <Car Model="Elantra" Combined="32" />
+        <Car Model="Elantra" Combined="31" />
+        <Car Model="Elantra" Combined="28" />
+        <Car Model="Elantra" Combined="28" />
+        <Car Model="Elantra GT" Combined="27" />
+        <Car Model="Elantra GT" Combined="27" />
+        <Car Model="Elantra Limited" Combined="31" />
+        <Car Model="Sonata HYBRID" Combined="41" />
+        <Car Model="Sonata HYBRID SE" Combined="42" />
+        <Car Model="Azera" Combined="23" />
+        <Car Model="Azera Limited" Combined="22" />
+        <Car Model="Equus" Combined="18" />
+        <Car Model="Genesis AWD" Combined="19" />
+        <Car Model="Genesis RWD" Combined="22" />
+        <Car Model="Genesis RWD" Combined="18" />
+        <Car Model="Sonata" Combined="32" />
+        <Car Model="Sonata" Combined="26" />
+        <Car Model="Sonata" Combined="30" />
+        <Car Model="Sonata Limited" Combined="25" />
+        <Car Model="Sonata SPORT/LIMITED" Combined="29" />
+        <Car Model="Santa Fe FWD" Combined="21" />
+        <Car Model="Santa Fe Sport FWD" Combined="22" />
+        <Car Model="Santa Fe Sport FWD" Combined="23" />
+        <Car Model="Santa Fe Sport ULTIMATE FWD" Combined="22" />
+        <Car Model="Santa Fe Ultimate FWD" Combined="20" />
+        <Car Model="Tucson Eco FWD" Combined="29" />
+        <Car Model="Tucson FWD" Combined="27" />
+        <Car Model="Tucson FWD" Combined="26" />
+        <Car Model="Santa Fe AWD" Combined="20" />
+        <Car Model="Santa Fe Sport AWD" Combined="21" />
+        <Car Model="Santa Fe Sport AWD" Combined="21" />
+        <Car Model="Santa Fe Ultimate AWD" Combined="19" />
+        <Car Model="Tucson AWD" Combined="26" />
+        <Car Model="Tucson AWD" Combined="23" />
+        <Car Model="Tucson Eco AWD" Combined="27" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="INFINITI" Country="Hong Kong">
+    <Cars Country="Hong Kong" CombinedSum="555">
+      <Car>
+        <Car Model="Q50 HYBRID" Combined="30" />
+        <Car Model="Q50 HYBRID AWD" Combined="28" />
+        <Car Model="Q50" Combined="26" />
+        <Car Model="Q50" Combined="23" />
+        <Car Model="Q50 AWD" Combined="24" />
+        <Car Model="Q50 AWD" Combined="22" />
+        <Car Model="Q50S" Combined="23" />
+        <Car Model="Q50S AWD" Combined="21" />
+        <Car Model="Q50S AWD Red Sport" Combined="22" />
+        <Car Model="Q50S Red Sport" Combined="22" />
+        <Car Model="Q70" Combined="21" />
+        <Car Model="Q70" Combined="19" />
+        <Car Model="Q70 AWD" Combined="20" />
+        <Car Model="Q70 AWD" Combined="18" />
+        <Car Model="Q70 HYBRID" Combined="31" />
+        <Car Model="QX50" Combined="20" />
+        <Car Model="QX50 AWD" Combined="20" />
+        <Car Model="QX60 FWD" Combined="23" />
+        <Car Model="QX70 RWD" Combined="19" />
+        <Car Model="QX60 AWD" Combined="22" />
+        <Car Model="QX70 AWD" Combined="18" />
+        <Car Model="QX60 Hybrid FWD" Combined="26" />
+        <Car Model="QX80 2WD" Combined="16" />
+        <Car Model="QX60 Hybrid AWD" Combined="26" />
+        <Car Model="QX80 4WD" Combined="15" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Jaguar" Country="UK">
+    <Cars Country="UK" CombinedSum="423">
+      <Car>
+        <Car Model="F-TYPE Convertible" Combined="22" />
+        <Car Model="F-TYPE Convertible Manual" Combined="19" />
+        <Car Model="F-TYPE Coupe" Combined="22" />
+        <Car Model="F-TYPE Coupe Manual" Combined="19" />
+        <Car Model="F-TYPE R AWD Convertible" Combined="18" />
+        <Car Model="F-TYPE R AWD Coupe" Combined="18" />
+        <Car Model="F-TYPE R Convertible" Combined="18" />
+        <Car Model="F-TYPE S AWD Convertible" Combined="21" />
+        <Car Model="F-TYPE S AWD Coupe" Combined="21" />
+        <Car Model="F-TYPE S Convertible" Combined="22" />
+        <Car Model="F-TYPE S Convertible Manual" Combined="18" />
+        <Car Model="F-TYPE S Coupe" Combined="22" />
+        <Car Model="F-TYPE S Coupe Manual" Combined="18" />
+        <Car Model="XF" Combined="24" />
+        <Car Model="XF AWD" Combined="23" />
+        <Car Model="XJ" Combined="21" />
+        <Car Model="XJ" Combined="18" />
+        <Car Model="XJ AWD" Combined="20" />
+        <Car Model="XJL" Combined="21" />
+        <Car Model="XJL" Combined="18" />
+        <Car Model="XJL AWD" Combined="20" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Jeep" Country="USA">
+    <Cars Country="USA" CombinedSum="863">
+      <Car>
+        <Car Model="Cherokee FWD" Combined="25" />
+        <Car Model="Cherokee FWD" Combined="25" />
+        <Car Model="Cherokee FWD" Combined="24" />
+        <Car Model="Compass FWD" Combined="24" />
+        <Car Model="Compass FWD" Combined="26" />
+        <Car Model="Compass FWD" Combined="23" />
+        <Car Model="Compass FWD" Combined="25" />
+        <Car Model="Patriot FWD" Combined="24" />
+        <Car Model="Patriot FWD" Combined="26" />
+        <Car Model="Patriot FWD" Combined="23" />
+        <Car Model="Patriot FWD" Combined="25" />
+        <Car Model="Renegade 4x2" Combined="27" />
+        <Car Model="Renegade 4x2" Combined="25" />
+        <Car Model="Cherokee 4X4" Combined="24" />
+        <Car Model="Cherokee 4X4" Combined="24" />
+        <Car Model="Cherokee 4X4" Combined="23" />
+        <Car Model="Cherokee 4x4 Active Drive II" Combined="23" />
+        <Car Model="Cherokee 4x4 Active Drive II" Combined="22" />
+        <Car Model="Cherokee Trailhawk 4X4" Combined="22" />
+        <Car Model="Cherokee Trailhawk 4X4" Combined="22" />
+        <Car Model="Compass 4X4" Combined="22" />
+        <Car Model="Compass 4X4" Combined="21" />
+        <Car Model="Compass 4X4" Combined="24" />
+        <Car Model="Patriot 4X4" Combined="22" />
+        <Car Model="Patriot 4X4" Combined="21" />
+        <Car Model="Patriot 4X4" Combined="24" />
+        <Car Model="Renegade 4x4" Combined="27" />
+        <Car Model="Renegade 4x4" Combined="24" />
+        <Car Model="Wrangler 4X4" Combined="18" />
+        <Car Model="Wrangler 4X4" Combined="18" />
+        <Car Model="Wrangler Unlimited 4X4" Combined="18" />
+        <Car Model="Wrangler Unlimited 4X4" Combined="18" />
+        <Car Model="Grand Cherokee 4X2" Combined="25" />
+        <Car Model="Grand Cherokee 4X2" Combined="22" />
+        <Car Model="Grand Cherokee 4X4" Combined="24" />
+        <Car Model="Grand Cherokee 4X4" Combined="21" />
+        <Car Model="Grand Cherokee 4X4" Combined="17" />
+        <Car Model="Grand Cherokee SRT8 4x4" Combined="15" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="KIA MOTORS CORPORATION" Country="South Korea">
+    <Cars Country="South Korea" CombinedSum="1047">
+      <Car>
+        <Car Model="Forte Koup" Combined="25" />
+        <Car Model="Forte Koup" Combined="25" />
+        <Car Model="Forte Koup" Combined="28" />
+        <Car Model="Forte Koup" Combined="27" />
+        <Car Model="Rio" Combined="31" />
+        <Car Model="Rio" Combined="31" />
+        <Car Model="Rio ECO" Combined="31" />
+        <Car Model="Forte" Combined="31" />
+        <Car Model="Forte" Combined="30" />
+        <Car Model="Forte" Combined="28" />
+        <Car Model="Optima HYBRID" Combined="38" />
+        <Car Model="Optima HYBRID EX" Combined="37" />
+        <Car Model="Cadenza" Combined="22" />
+        <Car Model="Forte 5" Combined="24" />
+        <Car Model="Forte 5" Combined="24" />
+        <Car Model="Forte 5" Combined="28" />
+        <Car Model="K900" Combined="20" />
+        <Car Model="K900" Combined="18" />
+        <Car Model="Optima" Combined="32" />
+        <Car Model="Optima" Combined="25" />
+        <Car Model="Optima" Combined="28" />
+        <Car Model="Optima FE" Combined="26" />
+        <Car Model="Optima FE" Combined="30" />
+        <Car Model="Soul" Combined="26" />
+        <Car Model="Soul" Combined="26" />
+        <Car Model="Soul" Combined="27" />
+        <Car Model="Soul ECO dynamics" Combined="27" />
+        <Car Model="Sedona" Combined="20" />
+        <Car Model="Sedona SX" Combined="21" />
+        <Car Model="Sedona SXL" Combined="19" />
+        <Car Model="Sorento FWD" Combined="23" />
+        <Car Model="Sorento FWD" Combined="24" />
+        <Car Model="Sorento FWD" Combined="21" />
+        <Car Model="Sportage FWD" Combined="24" />
+        <Car Model="Sportage SX FWD" Combined="22" />
+        <Car Model="Sorento AWD" Combined="22" />
+        <Car Model="Sorento AWD" Combined="23" />
+        <Car Model="Sorento AWD" Combined="19" />
+        <Car Model="Sorento AWD FE" Combined="21" />
+        <Car Model="Sportage AWD" Combined="22" />
+        <Car Model="Sportage SX AWD" Combined="21" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Lamborghini" Country="Italy">
+    <Cars Country="Italy" CombinedSum="58">
+      <Car>
+        <Car Model="Aventador Coupe" Combined="13" />
+        <Car Model="Aventador Roadster" Combined="12" />
+        <Car Model="Huracan" Combined="17" />
+        <Car Model="Huracan Spyder" Combined="16" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Land Rover" Country="UK">
+    <Cars Country="UK" CombinedSum="217">
+      <Car>
+        <Car Model="Discovery Sport" Combined="22" />
+        <Car Model="Range Rover Evoque" Combined="24" />
+        <Car Model="LR4" Combined="16" />
+        <Car Model="Range Rover" Combined="19" />
+        <Car Model="Range Rover" Combined="16" />
+        <Car Model="Range Rover LWB" Combined="19" />
+        <Car Model="Range Rover LWB" Combined="16" />
+        <Car Model="Range Rover Sport" Combined="19" />
+        <Car Model="Range Rover Sport" Combined="16" />
+        <Car Model="Range Rover Sport TDV6" Combined="25" />
+        <Car Model="Range Rover TDV6" Combined="25" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="LEXUS" Country="Japan">
+    <Cars Country="Japan" CombinedSum="841">
+      <Car>
+        <Car Model="RC 200t" Combined="26" />
+        <Car Model="RC 300 AWD" Combined="21" />
+        <Car Model="RC 350" Combined="22" />
+        <Car Model="RC 350 AWD" Combined="21" />
+        <Car Model="RC F" Combined="19" />
+        <Car Model="CT 200h" Combined="42" />
+        <Car Model="GS F" Combined="19" />
+        <Car Model="IS 200t" Combined="26" />
+        <Car Model="IS 300 AWD" Combined="21" />
+        <Car Model="IS 350" Combined="22" />
+        <Car Model="IS 350 AWD" Combined="21" />
+        <Car Model="ES 300h" Combined="40" />
+        <Car Model="ES 350" Combined="24" />
+        <Car Model="GS 200t" Combined="26" />
+        <Car Model="GS 200t F SPORT" Combined="24" />
+        <Car Model="GS 350" Combined="23" />
+        <Car Model="GS 350 AWD" Combined="22" />
+        <Car Model="GS 350 F SPORT" Combined="22" />
+        <Car Model="GS 450h" Combined="31" />
+        <Car Model="LS 460" Combined="19" />
+        <Car Model="LS 460 AWD" Combined="18" />
+        <Car Model="LS 460 L" Combined="19" />
+        <Car Model="LS 460 L AWD" Combined="18" />
+        <Car Model="LS 600h L" Combined="20" />
+        <Car Model="NX 200t" Combined="25" />
+        <Car Model="NX 300h" Combined="33" />
+        <Car Model="RX 350" Combined="23" />
+        <Car Model="RX 450h" Combined="30" />
+        <Car Model="NX 200t AWD" Combined="24" />
+        <Car Model="NX 200t AWD F SPORT" Combined="24" />
+        <Car Model="NX 300h AWD" Combined="32" />
+        <Car Model="RX 350 AWD" Combined="22" />
+        <Car Model="GX 460" Combined="17" />
+        <Car Model="LX 570" Combined="15" />
+        <Car Model="RX 450h AWD" Combined="30" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Lincoln" Country="USA">
+    <Cars Country="USA" CombinedSum="479">
+      <Car>
+        <Car Model="MKZ AWD" Combined="25" />
+        <Car Model="MKZ AWD" Combined="20" />
+        <Car Model="MKZ FWD" Combined="26" />
+        <Car Model="MKZ FWD" Combined="22" />
+        <Car Model="MKZ HYBRID FWD" Combined="40" />
+        <Car Model="MKS AWD" Combined="19" />
+        <Car Model="MKS AWD" Combined="19" />
+        <Car Model="MKS FWD" Combined="20" />
+        <Car Model="MKT LIVERY FWD" Combined="21" />
+        <Car Model="MKT LIVERY AWD" Combined="18" />
+        <Car Model="MKC  FWD" Combined="23" />
+        <Car Model="MKX FWD" Combined="21" />
+        <Car Model="MKX FWD" Combined="20" />
+        <Car Model="MKC  AWD" Combined="22" />
+        <Car Model="MKC  AWD" Combined="21" />
+        <Car Model="MKX AWD" Combined="19" />
+        <Car Model="MKX AWD" Combined="19" />
+        <Car Model="MKT FWD" Combined="19" />
+        <Car Model="Navigator 2WD" Combined="18" />
+        <Car Model="Navigator L 2WD" Combined="17" />
+        <Car Model="MKT AWD" Combined="17" />
+        <Car Model="Navigator 4WD" Combined="17" />
+        <Car Model="Navigator L 4WD" Combined="16" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="MASERATI" Country="Italy">
+    <Cars Country="Italy" CombinedSum="141">
+      <Car>
+        <Car Model="GRANTURISMO" Combined="16" />
+        <Car Model="GRANTURISMO CONVERTIBLE" Combined="15" />
+        <Car Model="Ghibli  S RWD" Combined="19" />
+        <Car Model="Ghibli V6 Rear Wheel Drive (RWD)" Combined="19" />
+        <Car Model="Ghibli V6 SQ4 AWD" Combined="19" />
+        <Car Model="QUATTROPORTE GTS" Combined="17" />
+        <Car Model="QUATTROPORTE S" Combined="18" />
+        <Car Model="QUATTROPORTE SQ4 V6" Combined="18" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="MAZDA" Country="Japan">
+    <Cars Country="Japan" CombinedSum="687">
+      <Car>
+        <Car Model="MX-5" Combined="30" />
+        <Car Model="MX-5" Combined="30" />
+        <Car Model="CX-3 2WD" Combined="31" />
+        <Car Model="CX-3 4WD" Combined="29" />
+        <Car Model="MAZDA 2" Combined="37" />
+        <Car Model="MAZDA 2" Combined="35" />
+        <Car Model="MAZDA3 4-Door" Combined="34" />
+        <Car Model="MAZDA3 4-Door" Combined="33" />
+        <Car Model="MAZDA3 4-Door" Combined="33" />
+        <Car Model="MAZDA3 4-Door" Combined="32" />
+        <Car Model="MAZDA3 4-Door" Combined="29" />
+        <Car Model="MAZDA 6" Combined="32" />
+        <Car Model="MAZDA 6" Combined="31" />
+        <Car Model="MAZDA 6" Combined="29" />
+        <Car Model="MAZDA3 5-Door" Combined="33" />
+        <Car Model="MAZDA3 5-Door" Combined="33" />
+        <Car Model="MAZDA3 5-Door" Combined="32" />
+        <Car Model="MAZDA3 5-Door" Combined="31" />
+        <Car Model="MAZDA3 5-Door" Combined="29" />
+        <Car Model="CX-5 2WD" Combined="29" />
+        <Car Model="CX-5 2WD" Combined="29" />
+        <Car Model="CX-5 4WD" Combined="26" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="McLaren" Country="UK">
+    <Cars Country="UK" CombinedSum="73">
+      <Car>
+        <Car Model="570S Coupe" Combined="19" />
+        <Car Model="650S Coupe" Combined="18" />
+        <Car Model="650S Spider" Combined="18" />
+        <Car Model="675LT Coupe" Combined="18" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Mercedes-Benz" Country="Germany">
+    <Cars Country="Germany" CombinedSum="1643">
+      <Car>
+        <Car Model="AMG GT S" Combined="18" />
+        <Car Model="AMG SL 63" Combined="19" />
+        <Car Model="AMG SL 65" Combined="17" />
+        <Car Model="AMG SLK 55" Combined="22" />
+        <Car Model="SL 400" Combined="23" />
+        <Car Model="SL 550" Combined="19" />
+        <Car Model="SLK 300" Combined="28" />
+        <Car Model="SLK 350" Combined="24" />
+        <Car Model="Smart fortwo (COUPE)" Combined="36" />
+        <Car Model="Smart fortwo (COUPE)" Combined="35" />
+        <Car Model="E 400 (convertible)" Combined="24" />
+        <Car Model="E 400 (coupe)" Combined="24" />
+        <Car Model="E 400 4MATIC (coupe)" Combined="23" />
+        <Car Model="E 550 (convertible)" Combined="20" />
+        <Car Model="E 550 (coupe)" Combined="21" />
+        <Car Model="AMG C 63" Combined="20" />
+        <Car Model="AMG C 63 S" Combined="20" />
+        <Car Model="AMG CLA 45 4MATIC" Combined="26" />
+        <Car Model="AMG CLS 63 S 4MATIC" Combined="18" />
+        <Car Model="AMG S 63 4MATIC (coupe)" Combined="18" />
+        <Car Model="AMG S 65 (coupe)" Combined="15" />
+        <Car Model="C 300" Combined="28" />
+        <Car Model="C 300 4MATIC" Combined="27" />
+        <Car Model="C 450 AMG" Combined="24" />
+        <Car Model="CLA 250" Combined="30" />
+        <Car Model="CLA 250 4MATIC" Combined="27" />
+        <Car Model="CLA 250 4MATIC" Combined="27" />
+        <Car Model="CLS 400" Combined="24" />
+        <Car Model="CLS 400 4MATIC" Combined="22" />
+        <Car Model="CLS 550" Combined="21" />
+        <Car Model="CLS 550 4MATIC" Combined="20" />
+        <Car Model="S 550 4MATIC (coupe)" Combined="19" />
+        <Car Model="AMG E 63 4MATIC" Combined="19" />
+        <Car Model="AMG E 63 S 4MATIC" Combined="18" />
+        <Car Model="E 250 BLUETEC" Combined="33" />
+        <Car Model="E 250 BLUETEC 4MATIC" Combined="31" />
+        <Car Model="E 350" Combined="23" />
+        <Car Model="E 350" Combined="23" />
+        <Car Model="E 350 4MATIC" Combined="23" />
+        <Car Model="E 350 4MATIC" Combined="23" />
+        <Car Model="E 400" Combined="23" />
+        <Car Model="E 400 4MATIC" Combined="23" />
+        <Car Model="E 550 4MATIC" Combined="21" />
+        <Car Model="AMG S 63 4MATIC" Combined="18" />
+        <Car Model="AMG S 65" Combined="15" />
+        <Car Model="Maybach S 600" Combined="15" />
+        <Car Model="S 550" Combined="20" />
+        <Car Model="S 550 4MATIC" Combined="19" />
+        <Car Model="S 600" Combined="16" />
+        <Car Model="AMG E 63 S 4MATIC (stat. wagon)" Combined="18" />
+        <Car Model="AMG GLA 45 4MATIC" Combined="25" />
+        <Car Model="E 350 4Matic (Wagon)" Combined="22" />
+        <Car Model="GLA 250" Combined="29" />
+        <Car Model="Metris (Cargo Van)" Combined="22" />
+        <Car Model="Metris (Passenger Van)" Combined="22" />
+        <Car Model="GLC 300" Combined="24" />
+        <Car Model="GLA 250 4MATIC" Combined="27" />
+        <Car Model="GLA 250 4MATIC" Combined="27" />
+        <Car Model="GLC 300 4MATIC" Combined="24" />
+        <Car Model="GLE 350" Combined="20" />
+        <Car Model="AMG G 63" Combined="13" />
+        <Car Model="AMG G65" Combined="12" />
+        <Car Model="AMG GL 63" Combined="14" />
+        <Car Model="AMG GLE 63" Combined="15" />
+        <Car Model="AMG GLE 63 S" Combined="15" />
+        <Car Model="AMG GLE 63 S (coupe)" Combined="15" />
+        <Car Model="G 550" Combined="13" />
+        <Car Model="GL 350 BLUETEC 4MATIC" Combined="22" />
+        <Car Model="GL 450 4MATIC" Combined="19" />
+        <Car Model="GL 550 4MATIC" Combined="15" />
+        <Car Model="GLE 300 d 4MATIC" Combined="24" />
+        <Car Model="GLE 350 4MATIC" Combined="19" />
+        <Car Model="GLE 350 4MATIC" Combined="19" />
+        <Car Model="GLE 350 d 4MATIC" Combined="26" />
+        <Car Model="GLE 400 4MATIC" Combined="20" />
+        <Car Model="GLE 450 AMG (coupe)" Combined="20" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Mini" Country="Germany">
+    <Cars Country="Germany" CombinedSum="958">
+      <Car>
+        <Car Model="Mini Cooper Convertible" Combined="31" />
+        <Car Model="Mini Cooper Convertible" Combined="31" />
+        <Car Model="Mini Cooper S Convertible" Combined="29" />
+        <Car Model="Mini Cooper S Convertible" Combined="27" />
+        <Car Model="MINI COOPER HARDTOP 2 DOOR" Combined="31" />
+        <Car Model="MINI COOPER HARDTOP 2 DOOR" Combined="32" />
+        <Car Model="MINI COOPER HARDTOP 4 DOOR" Combined="31" />
+        <Car Model="MINI COOPER HARDTOP 4 DOOR" Combined="33" />
+        <Car Model="Mini Cooper S Hardtop 2 door" Combined="29" />
+        <Car Model="Mini Cooper S Hardtop 2 door" Combined="27" />
+        <Car Model="Mini Cooper S Hardtop 4 door" Combined="29" />
+        <Car Model="Mini Cooper S Hardtop 4 door" Combined="27" />
+        <Car Model="MINI John Cooper Works Hardtop" Combined="28" />
+        <Car Model="MINI John Cooper Works Hardtop" Combined="26" />
+        <Car Model="Mini Cooper Countryman" Combined="27" />
+        <Car Model="Mini Cooper Countryman" Combined="29" />
+        <Car Model="Mini Cooper Paceman" Combined="27" />
+        <Car Model="Mini Cooper Paceman" Combined="29" />
+        <Car Model="Mini Cooper S Countryman" Combined="28" />
+        <Car Model="Mini Cooper S Countryman" Combined="29" />
+        <Car Model="Mini Cooper S Countryman All4" Combined="26" />
+        <Car Model="Mini Cooper S Countryman All4" Combined="27" />
+        <Car Model="Mini Cooper S Paceman" Combined="28" />
+        <Car Model="Mini Cooper S Paceman" Combined="29" />
+        <Car Model="Mini Cooper S Paceman ALL4" Combined="26" />
+        <Car Model="Mini Cooper S Paceman ALL4" Combined="27" />
+        <Car Model="Mini JCW Countryman ALL4" Combined="26" />
+        <Car Model="Mini JCW Countryman ALL4" Combined="27" />
+        <Car Model="Mini JCW Paceman ALL4" Combined="26" />
+        <Car Model="Mini JCW Paceman ALL4" Combined="27" />
+        <Car Model="Mini Cooper Clubman" Combined="28" />
+        <Car Model="Mini Cooper Clubman" Combined="28" />
+        <Car Model="Mini Cooper S Clubman" Combined="27" />
+        <Car Model="Mini Cooper S Clubman" Combined="26" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Mitsubishi Motors Corporation" Country="Japan">
+    <Cars Country="Japan" CombinedSum="339">
+      <Car>
+        <Car Model="LANCER" Combined="30" />
+        <Car Model="LANCER" Combined="28" />
+        <Car Model="LANCER" Combined="27" />
+        <Car Model="LANCER" Combined="25" />
+        <Car Model="LANCER 4WD" Combined="26" />
+        <Car Model="OUTLANDER 2WD" Combined="27" />
+        <Car Model="OUTLANDER SPORT 2WD" Combined="27" />
+        <Car Model="OUTLANDER SPORT 2WD" Combined="25" />
+        <Car Model="OUTLANDER SPORT 2WD" Combined="25" />
+        <Car Model="OUTLANDER 4WD" Combined="26" />
+        <Car Model="OUTLANDER 4WD" Combined="23" />
+        <Car Model="OUTLANDER SPORT 4WD" Combined="26" />
+        <Car Model="OUTLANDER SPORT 4WD" Combined="24" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="NISSAN" Country="Japan">
+    <Cars Country="Japan" CombinedSum="958">
+      <Car>
+        <Car Model="370Z" Combined="21" />
+        <Car Model="370Z" Combined="21" />
+        <Car Model="370Z Roadster" Combined="21" />
+        <Car Model="370Z Roadster" Combined="20" />
+        <Car Model="GT-R" Combined="19" />
+        <Car Model="VERSA" Combined="30" />
+        <Car Model="VERSA" Combined="35" />
+        <Car Model="VERSA" Combined="30" />
+        <Car Model="ALTIMA" Combined="31" />
+        <Car Model="ALTIMA 3.5" Combined="26" />
+        <Car Model="ALTIMA SR" Combined="30" />
+        <Car Model="MAXIMA" Combined="25" />
+        <Car Model="SENTRA" Combined="32" />
+        <Car Model="SENTRA" Combined="30" />
+        <Car Model="SENTRA FE+" Combined="34" />
+        <Car Model="JUKE" Combined="30" />
+        <Car Model="JUKE" Combined="30" />
+        <Car Model="JUKE AWD" Combined="28" />
+        <Car Model="JUKE NISMO RS" Combined="27" />
+        <Car Model="JUKE NISMO RS AWD" Combined="27" />
+        <Car Model="MURANO AWD" Combined="24" />
+        <Car Model="MURANO FWD" Combined="24" />
+        <Car Model="MURANO Hybrid AWD" Combined="28" />
+        <Car Model="MURANO Hybrid FWD" Combined="29" />
+        <Car Model="FRONTIER 2WD" Combined="19" />
+        <Car Model="FRONTIER 2WD" Combined="21" />
+        <Car Model="FRONTIER 2WD" Combined="18" />
+        <Car Model="FRONTIER 2WD" Combined="19" />
+        <Car Model="FRONTIER 4WD" Combined="17" />
+        <Car Model="FRONTIER 4WD" Combined="18" />
+        <Car Model="NV200 Cargo Van" Combined="25" />
+        <Car Model="NV200 NYC Taxi" Combined="24" />
+        <Car Model="QUEST" Combined="23" />
+        <Car Model="PATHFINDER 2WD" Combined="23" />
+        <Car Model="ROGUE FWD" Combined="28" />
+        <Car Model="PATHFINDER 4WD" Combined="22" />
+        <Car Model="PATHFINDER 4WD PLATINUM" Combined="21" />
+        <Car Model="ROGUE AWD" Combined="28" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Pagani Automobili S.p.A." Country="Italy">
+    <Cars Country="Italy" CombinedSum="13">
+      <Car>
+        <Car Model="Huayra Coupe" Combined="13" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Porsche" Country="Germany">
+    <Cars Country="Germany" CombinedSum="1438">
+      <Car>
+        <Car Model="911 GT3" Combined="17" />
+        <Car Model="911 GT3RS" Combined="16" />
+        <Car Model="Boxster" Combined="26" />
+        <Car Model="Boxster" Combined="24" />
+        <Car Model="Boxster GTS" Combined="25" />
+        <Car Model="Boxster GTS" Combined="22" />
+        <Car Model="Boxster S" Combined="24" />
+        <Car Model="Boxster S" Combined="23" />
+        <Car Model="Boxster Spyder" Combined="20" />
+        <Car Model="Cayman" Combined="26" />
+        <Car Model="Cayman" Combined="24" />
+        <Car Model="Cayman GT4" Combined="20" />
+        <Car Model="Cayman GTS" Combined="25" />
+        <Car Model="Cayman GTS" Combined="22" />
+        <Car Model="Cayman S" Combined="24" />
+        <Car Model="Cayman S" Combined="23" />
+        <Car Model="911 Carrera" Combined="23" />
+        <Car Model="911 Carrera" Combined="22" />
+        <Car Model="911 Carrera 4" Combined="23" />
+        <Car Model="911 Carrera 4" Combined="22" />
+        <Car Model="911 Carrera 4 Cabriolet" Combined="22" />
+        <Car Model="911 Carrera 4 Cabriolet" Combined="22" />
+        <Car Model="911 Carrera 4 GTS" Combined="21" />
+        <Car Model="911 Carrera 4 GTS" Combined="21" />
+        <Car Model="911 Carrera 4 GTS Cabriolet" Combined="21" />
+        <Car Model="911 Carrera 4 GTS Cabriolet" Combined="20" />
+        <Car Model="911 Carrera 4S" Combined="22" />
+        <Car Model="911 Carrera 4S" Combined="21" />
+        <Car Model="911 Carrera 4S Cabriolet" Combined="21" />
+        <Car Model="911 Carrera 4S Cabriolet" Combined="21" />
+        <Car Model="911 Carrera Cabriolet" Combined="23" />
+        <Car Model="911 Carrera Cabriolet" Combined="22" />
+        <Car Model="911 Carrera GTS" Combined="21" />
+        <Car Model="911 Carrera GTS" Combined="21" />
+        <Car Model="911 Carrera GTS Cabriolet" Combined="21" />
+        <Car Model="911 Carrera GTS Cabriolet" Combined="20" />
+        <Car Model="911 Carrera S" Combined="23" />
+        <Car Model="911 Carrera S" Combined="22" />
+        <Car Model="911 Carrera S Cabriolet" Combined="22" />
+        <Car Model="911 Carrera S Cabriolet" Combined="22" />
+        <Car Model="911 Targa 4" Combined="22" />
+        <Car Model="911 Targa 4" Combined="21" />
+        <Car Model="911 Targa 4 GTS" Combined="21" />
+        <Car Model="911 Targa 4 GTS" Combined="21" />
+        <Car Model="911 Targa 4S" Combined="21" />
+        <Car Model="911 Targa 4S" Combined="21" />
+        <Car Model="911 Turbo" Combined="20" />
+        <Car Model="911 Turbo Cabriolet" Combined="20" />
+        <Car Model="911 Turbo S" Combined="20" />
+        <Car Model="911 Turbo S Cabriolet" Combined="20" />
+        <Car Model="Panamera" Combined="22" />
+        <Car Model="Panamera 4" Combined="21" />
+        <Car Model="Panamera 4S" Combined="21" />
+        <Car Model="Panamera 4S Executive" Combined="20" />
+        <Car Model="Panamera GTS" Combined="19" />
+        <Car Model="Panamera S" Combined="21" />
+        <Car Model="Panamera Turbo" Combined="18" />
+        <Car Model="Panamera Turbo Executive" Combined="18" />
+        <Car Model="Panamera Turbo S" Combined="18" />
+        <Car Model="Panamera Turbo S Executive" Combined="18" />
+        <Car Model="Macan S" Combined="19" />
+        <Car Model="Macan Turbo" Combined="19" />
+        <Car Model="Cayenne" Combined="21" />
+        <Car Model="Cayenne Diesel" Combined="23" />
+        <Car Model="Cayenne GTS" Combined="19" />
+        <Car Model="Cayenne S" Combined="20" />
+        <Car Model="Cayenne Turbo" Combined="17" />
+        <Car Model="Cayenne Turbo S" Combined="17" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="RAM" Country="USA">
+    <Cars Country="USA" CombinedSum="218">
+      <Car>
+        <Car Model="1500 4X2" Combined="23" />
+        <Car Model="1500 4X2" Combined="20" />
+        <Car Model="1500 4X2" Combined="16" />
+        <Car Model="1500 4X2" Combined="17" />
+        <Car Model="1500 HFE 4X2" Combined="24" />
+        <Car Model="1500 HFE 4X2" Combined="21" />
+        <Car Model="1500 4X4" Combined="22" />
+        <Car Model="1500 4X4" Combined="19" />
+        <Car Model="1500 4X4" Combined="15" />
+        <Car Model="1500 4X4" Combined="17" />
+        <Car Model="Promaster City" Combined="24" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Rolls-Royce Motor Cars Limited" Country="UK">
+    <Cars Country="UK" CombinedSum="115">
+      <Car>
+        <Car Model="Dawn" Combined="14" />
+        <Car Model="Phantom Coupe" Combined="14" />
+        <Car Model="Phantom Drophead Coupe" Combined="14" />
+        <Car Model="Wraith" Combined="15" />
+        <Car Model="Ghost" Combined="15" />
+        <Car Model="Ghost EWB" Combined="15" />
+        <Car Model="Phantom" Combined="14" />
+        <Car Model="Phantom EWB" Combined="14" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Roush" Country="USA">
+    <Cars Country="USA" CombinedSum="58">
+      <Car>
+        <Car Model="Roush Stage 3 Mustang" Combined="16" />
+        <Car Model="Roush Stage 3 Mustang" Combined="16" />
+        <Car Model="F150 Pickup 2WD" Combined="13" />
+        <Car Model="F150 Pickup 4WD" Combined="13" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="SCION" Country="USA">
+    <Cars Country="USA" CombinedSum="240">
+      <Car>
+        <Car Model="FR-S" Combined="28" />
+        <Car Model="FR-S" Combined="25" />
+        <Car Model="iA" Combined="37" />
+        <Car Model="iA" Combined="35" />
+        <Car Model="tC" Combined="26" />
+        <Car Model="tC" Combined="26" />
+        <Car Model="iM" Combined="32" />
+        <Car Model="iM" Combined="31" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Subaru" Country="Japan">
+    <Cars Country="Japan" CombinedSum="559">
+      <Car>
+        <Car Model="BRZ" Combined="28" />
+        <Car Model="BRZ" Combined="25" />
+        <Car Model="IMPREZA" Combined="31" />
+        <Car Model="IMPREZA" Combined="28" />
+        <Car Model="WRX" Combined="21" />
+        <Car Model="WRX" Combined="23" />
+        <Car Model="WRX" Combined="19" />
+        <Car Model="LEGACY" Combined="30" />
+        <Car Model="LEGACY" Combined="23" />
+        <Car Model="IMPREZA SPORT" Combined="31" />
+        <Car Model="IMPREZA SPORT" Combined="28" />
+        <Car Model="IMPREZA WAGON" Combined="31" />
+        <Car Model="IMPREZA WAGON" Combined="28" />
+        <Car Model="CROSSTREK" Combined="29" />
+        <Car Model="CROSSTREK" Combined="26" />
+        <Car Model="CROSSTREK HYBRID" Combined="31" />
+        <Car Model="FORESTER" Combined="25" />
+        <Car Model="FORESTER" Combined="27" />
+        <Car Model="FORESTER" Combined="25" />
+        <Car Model="OUTBACK" Combined="28" />
+        <Car Model="OUTBACK" Combined="22" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="TOYOTA" Country="Japan">
+    <Cars Country="Japan" CombinedSum="1296">
+      <Car>
+        <Car Model="PRIUS c" Combined="50" />
+        <Car Model="YARIS" Combined="32" />
+        <Car Model="YARIS" Combined="33" />
+        <Car Model="AVALON" Combined="24" />
+        <Car Model="AVALON HYBRID" Combined="40" />
+        <Car Model="CAMRY" Combined="28" />
+        <Car Model="CAMRY" Combined="25" />
+        <Car Model="CAMRY HYBRID LE" Combined="41" />
+        <Car Model="CAMRY HYBRID XLE/SE" Combined="40" />
+        <Car Model="COROLLA" Combined="31" />
+        <Car Model="COROLLA" Combined="32" />
+        <Car Model="COROLLA" Combined="32" />
+        <Car Model="COROLLA" Combined="31" />
+        <Car Model="COROLLA LE ECO" Combined="35" />
+        <Car Model="COROLLA LE ECO" Combined="34" />
+        <Car Model="PRIUS" Combined="52" />
+        <Car Model="PRIUS Eco" Combined="56" />
+        <Car Model="PRIUS v" Combined="42" />
+        <Car Model="TACOMA 2WD" Combined="21" />
+        <Car Model="TACOMA 2WD" Combined="21" />
+        <Car Model="TACOMA 4WD" Combined="20" />
+        <Car Model="TACOMA 4WD" Combined="20" />
+        <Car Model="TACOMA 4WD" Combined="20" />
+        <Car Model="TACOMA 4WD" Combined="19" />
+        <Car Model="Tacoma 4WD Double Cab" Combined="18" />
+        <Car Model="TUNDRA 2WD" Combined="16" />
+        <Car Model="TUNDRA 2WD" Combined="15" />
+        <Car Model="TUNDRA 2WD FFV" Combined="15" />
+        <Car Model="TUNDRA 4WD" Combined="16" />
+        <Car Model="TUNDRA 4WD" Combined="15" />
+        <Car Model="TUNDRA 4WD FFV" Combined="15" />
+        <Car Model="SIENNA" Combined="21" />
+        <Car Model="SIENNA AWD" Combined="19" />
+        <Car Model="HIGHLANDER" Combined="22" />
+        <Car Model="HIGHLANDER" Combined="21" />
+        <Car Model="RAV4" Combined="26" />
+        <Car Model="RAV4 LE/XLE" Combined="26" />
+        <Car Model="RAV4 AWD" Combined="25" />
+        <Car Model="RAV4 HYBRID AWD" Combined="33" />
+        <Car Model="RAV4 Limited AWD/SE AWD" Combined="25" />
+        <Car Model="4RUNNER 2WD" Combined="19" />
+        <Car Model="SEQUOIA 2WD" Combined="15" />
+        <Car Model="4RUNNER 4WD" Combined="18" />
+        <Car Model="4RUNNER 4WD" Combined="18" />
+        <Car Model="HIGHLANDER AWD" Combined="20" />
+        <Car Model="HIGHLANDER HYBRID AWD" Combined="28" />
+        <Car Model="HIGHLANDER HYBRID AWD LE Plus" Combined="28" />
+        <Car Model="LAND CRUISER WAGON 4WD" Combined="15" />
+        <Car Model="SEQUOIA 4WD" Combined="14" />
+        <Car Model="SEQUOIA 4WD FFV" Combined="14" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Volkswagen" Country="Germany">
+    <Cars Country="Germany" CombinedSum="896">
+      <Car>
+        <Car Model="Beetle Convertible" Combined="28" />
+        <Car Model="Beetle Convertible" Combined="26" />
+        <Car Model="Beetle Convertible" Combined="26" />
+        <Car Model="Eos" Combined="25" />
+        <Car Model="Beetle" Combined="28" />
+        <Car Model="Beetle" Combined="28" />
+        <Car Model="Beetle" Combined="27" />
+        <Car Model="Beetle" Combined="26" />
+        <Car Model="Beetle Dune" Combined="27" />
+        <Car Model="CC" Combined="25" />
+        <Car Model="CC" Combined="25" />
+        <Car Model="CC 4Motion" Combined="20" />
+        <Car Model="Golf" Combined="29" />
+        <Car Model="Golf" Combined="30" />
+        <Car Model="Golf R" Combined="25" />
+        <Car Model="Golf R" Combined="25" />
+        <Car Model="GTI" Combined="28" />
+        <Car Model="GTI" Combined="28" />
+        <Car Model="Jetta" Combined="32" />
+        <Car Model="Jetta" Combined="33" />
+        <Car Model="Jetta" Combined="29" />
+        <Car Model="Jetta" Combined="29" />
+        <Car Model="Jetta" Combined="27" />
+        <Car Model="Jetta" Combined="27" />
+        <Car Model="Jetta Hybrid" Combined="44" />
+        <Car Model="Passat" Combined="29" />
+        <Car Model="Passat" Combined="23" />
+        <Car Model="Golf SportWagen" Combined="29" />
+        <Car Model="Golf SportWagen" Combined="29" />
+        <Car Model="Tiguan" Combined="23" />
+        <Car Model="Tiguan 4Motion" Combined="23" />
+        <Car Model="Touareg" Combined="24" />
+        <Car Model="Touareg" Combined="19" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+  <Manufacturer Name="Volvo" Country="Sweden">
+    <Cars Country="Sweden" CombinedSum="624">
+      <Car>
+        <Car Model="S60 AWD" Combined="25" />
+        <Car Model="S60 AWD" Combined="23" />
+        <Car Model="S60 AWD" Combined="21" />
+        <Car Model="S60 CC AWD" Combined="23" />
+        <Car Model="S60 FWD" Combined="30" />
+        <Car Model="S60 FWD" Combined="27" />
+        <Car Model="S60 Inscription AWD" Combined="23" />
+        <Car Model="S60 Inscription FWD" Combined="29" />
+        <Car Model="S60 Polestar AWD" Combined="21" />
+        <Car Model="S80 FWD" Combined="29" />
+        <Car Model="V60 AWD" Combined="25" />
+        <Car Model="V60 AWD" Combined="23" />
+        <Car Model="V60 AWD" Combined="21" />
+        <Car Model="V60 FWD" Combined="29" />
+        <Car Model="V60 Polestar AWD" Combined="21" />
+        <Car Model="V60CC AWD" Combined="23" />
+        <Car Model="XC60 FWD" Combined="26" />
+        <Car Model="XC60 FWD" Combined="24" />
+        <Car Model="XC70 FWD" Combined="26" />
+        <Car Model="XC60 AWD" Combined="22" />
+        <Car Model="XC60 AWD" Combined="22" />
+        <Car Model="XC60 AWD" Combined="20" />
+        <Car Model="XC70 AWD" Combined="22" />
+        <Car Model="XC90 FWD" Combined="24" />
+        <Car Model="XC90 AWD" Combined="22" />
+        <Car Model="XC90 AWD" Combined="23" />
+      </Car>
+    </Cars>
+  </Manufacturer>
+</Manufacturers>

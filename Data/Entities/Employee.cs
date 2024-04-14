@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace ControlingProjectApp.Entities;
+namespace ControlingProjectApp.Data.Entities;
 
 public class Employee : EntityBase
 {

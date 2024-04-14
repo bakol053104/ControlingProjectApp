@@ -1,4 +1,4 @@
-﻿using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace ControlingProjectApp.Data.Repositories;

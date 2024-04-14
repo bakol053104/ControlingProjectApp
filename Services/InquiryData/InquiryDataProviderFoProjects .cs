@@ -1,5 +1,5 @@
-﻿using ControlingProjectApp.Data.Repositories;
-using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
+using ControlingProjectApp.Data.Repositories;
 
 namespace ControlingProjectApp.Services.InquiryData;
 

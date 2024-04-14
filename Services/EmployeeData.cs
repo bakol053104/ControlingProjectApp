@@ -1,9 +1,8 @@
-﻿using ControlingProjectApp.Data.Repositories;
-using ControlingProjectApp.Entities;
+﻿using ControlingProjectApp.Data.Entities;
+using ControlingProjectApp.Data.Repositories;
 using ControlingProjectApp.Services.InquiryData;
 using System.Globalization;
 using System.Text;
-
 
 namespace ControlingProjectApp.Services;
 
