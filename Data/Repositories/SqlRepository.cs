@@ -9,6 +9,7 @@ public class SqlRepository<T> : IRepository<T> where T : class, IEntity, new()
     private readonly DbSet<T> _dbSet;
 
     public event EventHandler<T?>? ItemAdded;
+    public event EventHandler<T?>? ItemUpdated;
     public event EventHandler<T?>? ItemRemoved;
 
     public SqlRepository(ControlingProjectAppDbContext dbContext)
@@ -41,9 +42,11 @@ public class SqlRepository<T> : IRepository<T> where T : class, IEntity, new()
         ItemRemoved?.Invoke(this, item);
     }
 
-    public void Save()
+    public void Update(T item)
     {
         _dbContext.SaveChanges();
+        ItemUpdated?.Invoke(this, item);
+
     }
 }
 

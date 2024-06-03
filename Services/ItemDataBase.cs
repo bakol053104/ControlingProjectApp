@@ -95,8 +95,8 @@ public abstract class ItemDataBase : UserSubMenuBase
                 DisplayDescriptionSeparator();
             }
             Console.Write($"\tPodaj numer Id:\t");
-            var input = Console.ReadLine();
 
+            var input = Console.ReadLine();
             var isNumber = int.TryParse(input, out var inputId);
             if (isNumber)
             {

@@ -40,6 +40,10 @@ public class UserSubMenu : UserSubMenuBase, IUserSubMenu
                     Console.WriteLine($"\t\t\t Zapytania o dane");
                     DisplayDescriptionSeparator();
                     break;
+                case "6":
+                    Console.WriteLine($"\t\t\t Modyfikowanie danych");
+                    DisplayDescriptionSeparator();
+                    break;
                 default:
                     break;
             }
@@ -61,6 +65,7 @@ public class UserSubMenu : UserSubMenuBase, IUserSubMenu
                         case "3":
                         case "4":
                         case "5":
+                        case "6":
                             _employeeData.EmployeeDataHandling(menuOption);
                             break;
                     }
@@ -73,6 +78,7 @@ public class UserSubMenu : UserSubMenuBase, IUserSubMenu
                         case "3":
                         case "4":
                         case "5":
+                        case "6":
                             _projectData.ProjectDataHandling(menuOption);
                             break;
                     }
@@ -88,6 +94,7 @@ public class UserSubMenu : UserSubMenuBase, IUserSubMenu
         }
     }
 }
+
 
 
 

@@ -153,7 +153,6 @@ public class UserCarsMenu : ItemDataBase, IUserCarsMenu
     {
         Console.Clear();   
         Paging($"Odczytanie pliku fuel.xml typów producenta BMW", 25, _xmlFilesService.QueryXml(xmlFilePath));
-        WaitForKeyPress();
     }
 
     private void InquiryTaskXmlFile()

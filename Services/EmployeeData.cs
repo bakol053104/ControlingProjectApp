@@ -1,7 +1,6 @@
 ﻿using ControlingProjectApp.Data.Entities;
 using ControlingProjectApp.Data.Repositories;
 using ControlingProjectApp.Services.InquiryData;
-using System.Globalization;
 using System.Text;
 
 namespace ControlingProjectApp.Services;
@@ -20,7 +19,7 @@ public class EmployeeData : ItemDataBase, IEmployeeData
 
     public void EmployeeDataHandling(string menuOption)
     {
- 
+
         switch (menuOption)
         {
             case "1":
@@ -38,130 +37,61 @@ public class EmployeeData : ItemDataBase, IEmployeeData
             case "5":
                 _inquiryProviderForEmployees.GetInquiryForEmployess();
                 break;
+            case "6":
+                UpdateEmployee();
+                break;
         }
     }
 
     private void AddNewEmployee()
     {
         var sb = new StringBuilder();
-        string? inputFirstName = null;
-        string? inputLastName = null;
-        int jobposition = 0;
-        var employmentDate = new DateOnly();
-
-        int index = 0;
         var endMethod = false;
 
         while (!endMethod)
         {
-            while (index < 1)
+            sb = sb.Clear();
+            sb.AppendLine($"\t\tWprowadzanie danych pracownika");
+            sb.AppendLine($"\t=======================================================================================\n");
+            UpdateConsole(sb);
+
+            sb.Append($"\n\tPodaj imię pracownika:\t\t\t\t\t\t\t");
+            UpdateConsole(sb);
+            string? inputFirstName = GetRestricStringFromConsole(sb);
+            if (inputFirstName == null)
             {
-                Console.Clear();
-                sb = sb.Clear(); ;
-                sb.AppendLine($"\t\tWprowadzanie danych pracownika");
-                sb.AppendLine($"\t=======================================================================================\n");
-
-                sb.Append($"\tPodaj imię pracownika:\t\t\t\t\t\t\t");
-                Console.Clear();
-                Console.Write(sb);
-                var input = Console.ReadLine()!;
-                if (IsInputStringValid(input))
-                {
-                    ConversionStringFirstCapitalLetterOnly(ref input);
-                    inputFirstName = input;
-                    sb.AppendLine($"{inputFirstName}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
-            sb.Append($"\tPodaj nazwisko pracownika:\t\t\t\t\t\t");
-            while (index < 2)
+            ConversionStringFirstCapitalLetterOnly(ref inputFirstName!);
+            sb.Append($"{inputFirstName}");
+
+            sb.Append($"\n\tPodaj nazwisko pracownika:\t\t\t\t\t\t");
+            UpdateConsole(sb);
+            string? inputLastName = GetRestricStringFromConsole(sb);
+            if (inputLastName == null)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var input = Console.ReadLine()!;
-                if (IsInputStringValid(input))
-                {
-                    ConversionStringFirstCapitalLetterOnly(ref input);
-                    inputLastName = input;
-                    sb.AppendLine($"{inputLastName}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
-            sb.Append($"\tPodaj stanowisko (1-pracownik, 2-inżynier, 3-kierownik, 4-manager):\t");
-            while (index < 3)
+            ConversionStringFirstCapitalLetterOnly(ref inputLastName!);
+            sb.Append($"{inputLastName}");
+
+            sb.Append($"\n\tPodaj stanowisko (1-pracownik, 2-inżynier, 3-kierownik, 4-manager):\t");
+            UpdateConsole(sb);
+            int? jobposition = GetIntWithLimitsFromConsole(sb, (int)JobPosition.Employee, (int)JobPosition.Supervisor);
+            if (jobposition == null)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var input = Console.ReadLine();
-
-                var isNumber = int.TryParse(input, out jobposition);
-                if (isNumber && jobposition >= 1 && jobposition <= 4)
-                {
-                    sb.AppendLine($"{jobposition}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            sb.AppendLine($"{jobposition}");
+
             sb.Append($"\tPodaj datę zatrudnienia (dd.mm.rrrr):\t\t\t\t\t");
-            while (index < 4)
+            UpdateConsole(sb);
+            DateOnly employmentDate = GetDateFromConsole(sb);
+            if (employmentDate == DateOnly.MinValue)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var inputDate = Console.ReadLine();
-
-                if (DateOnly.TryParseExact(inputDate, "d", CultureInfo.CurrentCulture, 0, out employmentDate))
-                {
-                    sb.Append($"{employmentDate}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            sb.Append($"{employmentDate}");
 
             switch (DisplaySelectionWithData())
             {
@@ -180,7 +110,6 @@ public class EmployeeData : ItemDataBase, IEmployeeData
                     return;
                 case "N":
                 case "n":
-                    index = 0;
                     break;
                 default:
                     endMethod = true;
@@ -189,22 +118,143 @@ public class EmployeeData : ItemDataBase, IEmployeeData
         }
     }
 
-    private static bool IsStringWithPolishLettersOnly(string inputstring)
+    private void UpdateEmployee()
     {
-        foreach (char c in inputstring)
-        {
-            if (!((c >= 65 && c <= 90) || (c >= 97 && c <= 122) || (c >= 260 && c <= 263) || (c >= 321 && c <= 324) ||
+        var sb = new StringBuilder();
+        var employee = FindItemById(_employeesRepository);
+        string? inputFirstName = null;
+        string? inputLastName = null;
+        int changeIndex;
+        var endMethod = false;
 
-                (c >= 377 && c <= 380) || (c == 211) || (c >= 280 && c <= 281) || (c >= 346 && c <= 347) || (c == 243)))
+        while (!endMethod)
+        {
+            changeIndex = 0;
+            Console.Clear();
+            sb = sb.Clear();
+            sb.AppendLine($"\t\tModyfikowanie danych pracownika");
+            sb.AppendLine($"\t=======================================================================================\n");
+            sb = sb.AppendLine(employee!.ToString());
+            UpdateConsole(sb);
+
+            Console.Write($" \n\n Czy chcesz zmienić imię?");
+            var input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj imię pracownika:\t\t\t\t\t\t\t");
+            if (input == "Y")
             {
-                return false;
+                UpdateConsole(sb);
+                inputFirstName = GetRestricStringFromConsole(sb);
+                if (inputFirstName == null)
+                {
+                    return;
+                }
+                ConversionStringFirstCapitalLetterOnly(ref inputFirstName!);
+                sb.Append($"{inputFirstName}");
+                changeIndex++;
+            }
+            else
+            {
+                inputFirstName = employee!.FirstName;
+                sb.AppendLine(employee!.FirstName);
+                UpdateConsole(sb);
+            }
+
+            Console.Write($"\n  Czy chcesz zmienić nazwisko?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj nazwisko pracownika:\t\t\t\t\t\t");
+            if (input == "Y")
+            {
+                UpdateConsole(sb);
+                inputLastName = GetRestricStringFromConsole(sb);
+                if (inputLastName == null)
+                {
+                    return;
+                }
+                ConversionStringFirstCapitalLetterOnly(ref inputLastName!);
+                sb.Append($"{inputLastName}");
+                changeIndex++;
+            }
+            else
+            {
+                inputLastName = employee!.LastName;
+                sb.AppendLine(employee!.LastName);
+                UpdateConsole(sb);
+            }
+
+            Console.Write($"\n\n  Czy chcesz zmienić stanowisko?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj stanowisko (1-pracownik, 2-inżynier, 3-kierownik, 4-manager):\t");
+            int? jobposition;
+            if (input == "Y")
+            {
+                UpdateConsole(sb);
+                jobposition = GetIntWithLimitsFromConsole(sb, (int)JobPosition.Employee, (int)JobPosition.Supervisor);
+                if (jobposition == null)
+                {
+                    return;
+                }
+                sb.AppendLine($"{jobposition}");
+                changeIndex++;
+            }
+            else
+            {
+                jobposition = (int)employee.JobPositon;
+                sb.AppendLine($"{employee.JobPositon}");
+                UpdateConsole(sb);
+            }
+
+            Console.Write($"\n\n  Czy chcesz zmienić datę zatrudnienia?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj datę zatrudnienia (dd.mm.rrrr):\t\t\t\t\t");
+            DateOnly employmentDate;
+            if (input == "Y")
+            {
+                UpdateConsole(sb);
+                employmentDate = GetDateFromConsole(sb);
+                if (employmentDate == DateOnly.MinValue)
+                {
+                    return;
+                }
+                sb.Append($"{employmentDate}");
+                changeIndex++;
+            }
+            else
+            {
+                employmentDate = DateOnly.FromDateTime(employee.EmploymentDate);
+                sb.AppendLine($"{employmentDate}");
+                UpdateConsole(sb);
+            }
+
+            if (changeIndex != 0)
+            {
+                switch (DisplaySelectionWithData())
+                {
+                    case "Y":
+                    case "y":
+
+                        {
+                            employee!.FirstName = inputFirstName;
+                            employee!.LastName = inputLastName;
+                            employee!.JobPositon = (JobPosition)jobposition;
+                            employee!.EmploymentDate = new DateTime(employmentDate.Year, employmentDate.Month, employmentDate.Day, 0, 0, 0);
+                            employee!.HourlyRate = SetHourlyRate((JobPosition)jobposition);
+                        };
+                        _employeesRepository.Update(employee);
+                        WaitForKeyPress();
+                        return;
+                    case "N":
+                    case "n":
+                        break;
+                    default:
+                        endMethod = true;
+                        break;
+                }
+            }
+            else
+            {
+                endMethod = true;
             }
         }
-        return true;
     }
 
-    private static bool IsInputStringValid(string inputstring)
-    {
-        return IsStringWithPolishLettersOnly(inputstring) && !string.IsNullOrEmpty(inputstring);
-    }
 }

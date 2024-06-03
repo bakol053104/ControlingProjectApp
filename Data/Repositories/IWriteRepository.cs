@@ -8,5 +8,5 @@ public interface IWriteRepository<in T> where T : class, IEntity
 
     void Remove(T item);
 
-    void Save();
+    void Update(T item);
 }

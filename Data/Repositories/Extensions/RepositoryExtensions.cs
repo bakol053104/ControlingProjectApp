@@ -9,7 +9,7 @@ public static class RepositoryExtensions
         foreach (var item in items)
         {
             Repository.Add(item);
+            Repository.Update(item);
         }
-        Repository.Save();
     }
 }

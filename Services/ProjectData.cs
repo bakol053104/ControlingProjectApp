@@ -1,9 +1,7 @@
 ﻿using ControlingProjectApp.Data.Entities;
 using ControlingProjectApp.Data.Repositories;
 using ControlingProjectApp.Services.InquiryData;
-using System.Globalization;
 using System.Text;
-
 
 namespace ControlingProjectApp.Services;
 
@@ -39,157 +37,69 @@ public class ProjectData : ItemDataBase, IProjectData
             case "5":
                 _inquiryProviderForProjects.GetInquiryForProjects();
                 break;
+            case "6":
+                UpdateProject();
+                break;
         }
     }
 
     private void AddNewProject()
     {
         var sb = new StringBuilder();
-        string? inputName = null;
-        string? inputDescription = null;
-        decimal inputBudget = 0.0m;
-        var beginDate = new DateOnly();
-        var endDate = new DateOnly();
-
-        int index = 0;
         var endMethod = false;
 
         while (!endMethod)
         {
-            while (index < 1)
+            sb = sb.Clear();
+            sb.AppendLine($"\t\tWprowadzanie danych projektu");
+            sb.AppendLine($"\t=======================================================================================\n");
+            sb.Append($"\n\tPodaj nazwę projektu:\t\t\t\t");
+            UpdateConsole(sb);
+            string? inputName = GetStringFromConsole(sb);
+            if (inputName == null)
             {
-                Console.Clear();
-                sb = sb.Clear(); ;
-                sb.AppendLine($"\t\tWprowadzanie danych projektu");
-                sb.AppendLine($"\t=======================================================================================\n");
-
-                sb.Append($"\tPodaj nazwę projektu:\t\t\t\t");
-                Console.Clear();
-                Console.Write(sb);
-                var input = Console.ReadLine();
-                if (!string.IsNullOrEmpty(input))
-                {
-                    ConversionStringFirstCapitalLetterOnly(ref input);
-                    inputName = input;
-                    sb.AppendLine($"{inputName}");
-                    index++;
-                }
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            ConversionStringFirstCapitalLetterOnly(ref inputName!);
+            sb.Append($"{inputName}");
 
-            sb.Append($"\tPodaj opis projeku:\t\t\t\t");
-            while (index < 2)
+            sb.Append($"\n\tPodaj opis projeku:\t\t\t\t");
+            UpdateConsole(sb);
+            string? inputDescription = GetStringFromConsole(sb);
+            if (inputDescription == null)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var input = Console.ReadLine();
-                if (!string.IsNullOrEmpty(input))
-                {
-                    ConversionStringFirstCapitalLetterOnly(ref input);
-                    inputDescription = input;
-                    sb.AppendLine($"{inputDescription}");
-                    index++;
-                }
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            ConversionStringFirstCapitalLetterOnly(ref inputDescription!);
+            sb.Append($"{inputDescription}");
 
-            sb.Append($"\tPodaj budżet projektu:\t\t\t\t");
-            while (index < 3)
+            sb.Append($"\n\tPodaj budżet projektu:\t\t\t\t");
+            UpdateConsole(sb);
+            decimal? inputBudget = GetDecimalFromConsole(sb);
+            if (inputBudget == null)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var input = Console.ReadLine();
-                if (Decimal.TryParse(input, out var result))
-                {
-                    inputBudget = result;
-                    sb.AppendLine($"{inputBudget}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            sb.Append($"{inputBudget}");
 
-            sb.Append($"\tPodaj datę początkową projektu (dd.mm.rrrr):\t");
-            while (index < 4)
+            sb.Append($"\n\tPodaj datę początkową projektu (dd.mm.rrrr):\t");
+            UpdateConsole(sb);
+            DateOnly beginDate = GetDateFromConsole(sb);
+            if (beginDate == DateOnly.MinValue)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var inputDate = Console.ReadLine();
-
-                if (DateOnly.TryParseExact(inputDate, "d", CultureInfo.CurrentCulture, 0, out beginDate))
-                {
-                    sb.AppendLine($"{beginDate}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            sb.Append($"{beginDate}");
 
-            sb.Append($"\tPodaj datę końcową projektu (dd.mm.rrrr):\t");
-            while (index < 5)
+            sb.Append($"\n\tPodaj datę końcową projektu (dd.mm.rrrr):\t");
+            UpdateConsole(sb);
+            DateOnly endDate = GetDateFromConsole(sb);
+            if (endDate == DateOnly.MinValue)
             {
-                Console.Clear();
-                Console.Write(sb);
-                var inputDate = Console.ReadLine();
-
-                if (DateOnly.TryParseExact(inputDate, "d", CultureInfo.CurrentCulture, 0, out endDate))
-                {
-                    sb.AppendLine($"{endDate}");
-                    index++;
-                }
-
-                else
-                {
-                    switch (DisplaySelectionWithInvalidData())
-                    {
-                        case "Q":
-                        case "q":
-                            return;
-                        default:
-                            break;
-                    }
-                }
+                return;
             }
+            sb.Append($"{endDate}");
+
             switch (DisplaySelectionWithData())
             {
                 case "Y":
@@ -198,7 +108,7 @@ public class ProjectData : ItemDataBase, IProjectData
                     {
                         Name = inputName,
                         Description = inputDescription,
-                        Budget = inputBudget,
+                        Budget = (decimal)inputBudget,
                         BeginDate = new DateTime(beginDate.Year, beginDate.Month, beginDate.Day, 0, 0, 0),
                         EndDate = new DateTime(endDate.Year, endDate.Month, endDate.Day, 0, 0, 0),
                     };
@@ -207,7 +117,6 @@ public class ProjectData : ItemDataBase, IProjectData
                     return;
                 case "N":
                 case "n":
-                    index = 0;
                     break;
                 default:
                     endMethod = true;
@@ -215,6 +124,172 @@ public class ProjectData : ItemDataBase, IProjectData
             }
         }
     }
+
+    private void UpdateProject()
+    {
+        var sb = new StringBuilder();
+        var project = FindItemById(_projectsRepository);
+        string? inputName = null;
+        string? inputDescription = null;
+        decimal? inputBudget;
+        int changeIndex;
+        var endMethod = false;
+
+        while (!endMethod)
+        {
+            changeIndex = 0;
+            Console.Clear();
+            sb = sb.Clear();
+            sb.AppendLine($"\t\tModyfikowanie danych projektu");
+            sb.AppendLine($"\t=======================================================================================\n");
+            sb = sb.AppendLine(project!.ToString());
+            UpdateConsole(sb);
+
+            Console.Write($" \n\n Czy chcesz zmienić nazwę projektu?");
+            var input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj nazwę projeku:\t\t\t\t");
+            if (input == "Y")
+            {
+                UpdateConsole(sb);
+                inputName = GetStringFromConsole(sb);
+                if (inputName == null)
+                {
+                    return;
+                }
+                ConversionStringFirstCapitalLetterOnly(ref inputName!);
+                sb.Append($"{inputName}");
+                changeIndex++;
+            }
+            else
+            {
+                inputName = project!.Name;
+                sb.AppendLine(project!.Name);
+                UpdateConsole(sb);
+                changeIndex = 0;
+            }
+
+            Console.Write($" \n\n Czy chcesz zmienić opis projektu?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj opis projeku:\t\t\t\t");
+            if (input == "Y")
+            {
+                UpdateConsole(sb);
+                inputDescription = GetStringFromConsole(sb);
+                if (inputDescription == null)
+                {
+                    return;
+                }
+                ConversionStringFirstCapitalLetterOnly(ref inputDescription!);
+                sb.Append($"{inputDescription}");
+                changeIndex++;
+            }
+            else
+            {
+                inputDescription = project!.Description;
+                sb.AppendLine(project!.Description);
+                UpdateConsole(sb);
+            }
+
+            Console.Write($" \n\n Czy chcesz zmienić budżet projektu?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj budżet projektu:\t\t\t\t");
+            if (input == "Y")
+            {
+                UpdateConsole(sb);
+                inputBudget = GetDecimalFromConsole(sb);
+                if (inputBudget == null)
+                {
+                    return;
+                }
+                sb.Append($"{inputBudget}");
+                changeIndex++;
+            }
+            else
+            {
+                inputBudget = project!.Budget;
+                sb.AppendLine($"{project!.Budget:N2}");
+                UpdateConsole(sb);
+            }
+
+            Console.Write($" \n\n Czy chcesz zmienić datę początkową projektu?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj datę początkową projektu (dd.mm.rrrr):\t");
+            DateOnly beginDate;
+            if (input == "Y")
+            {
+
+                UpdateConsole(sb);
+                beginDate = GetDateFromConsole(sb);
+                if (beginDate == DateOnly.MinValue)
+                {
+                    return;
+                }
+                sb.Append($"{beginDate}");
+                changeIndex++;
+            }
+            else
+            {
+                beginDate = DateOnly.FromDateTime(project.BeginDate);
+                sb.AppendLine($"{beginDate}");
+                UpdateConsole(sb);
+            }
+
+            Console.Write($" \n\n Czy chcesz zmienić datę końcową projektu?");
+            input = DisplaySelectionUpdateData();
+            sb.Append($"\n\tPodaj datę końcową projektu (dd.mm.rrrr):\t");
+            DateOnly endDate;
+            if (input == "Y")
+            {
+
+                UpdateConsole(sb);
+                endDate = GetDateFromConsole(sb);
+                if (endDate == DateOnly.MinValue)
+                {
+                    return;
+                }
+                sb.Append($"{endDate}");
+                changeIndex++;
+            }
+            else
+            {
+                endDate = DateOnly.FromDateTime(project.EndDate);
+                sb.AppendLine($"{endDate}");
+                UpdateConsole(sb);
+            }
+
+            if (changeIndex != 0)
+            {
+                switch (DisplaySelectionWithData())
+                {
+                    case "Y":
+                    case "y":
+
+                        {
+                            project!.Name = inputName;
+                            project!.Description = inputDescription;
+                            project!.Budget = (decimal)inputBudget;
+                            project!.BeginDate = new DateTime(beginDate.Year, beginDate.Month, beginDate.Day, 0, 0, 0);
+                            project!.EndDate = new DateTime(endDate.Year, endDate.Month, endDate.Day, 0, 0, 0);
+                        };
+                        _projectsRepository.Update(project);
+                        WaitForKeyPress();
+                        return;
+                    case "N":
+                    case "n":
+                        break;
+                    default:
+                        endMethod = true;
+                        break;
+                }
+            }
+            else
+            {
+                endMethod = true;
+            }
+        }
+    }
 }
+
+
 
 

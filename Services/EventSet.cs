@@ -22,6 +22,8 @@ public class EventSet : IEventSet
         _projectsRepository.ItemAdded += RepositoryOnItemAdded;
         _employeesRepository.ItemRemoved += RepositoryOnItemRemoved;
         _projectsRepository.ItemRemoved += RepositoryOnItemRemoved;
+        _employeesRepository.ItemUpdated += RepositoryOnItemUpdated;
+        _projectsRepository.ItemUpdated += RepositoryOnItemUpdated;
     }
 
     private static void RepositoryOnItemAdded<T>(object? sender, T? e)
@@ -52,6 +54,23 @@ public class EventSet : IEventSet
         else if (entityType.Name == "Project")
         {
             infoMessage = ($"\nProjekt:\n {e} \nzostał usunięty z bazy");
+        }
+        Console.WriteLine(infoMessage);
+        AddToLogFile(infoMessage);
+    }
+
+    private static void RepositoryOnItemUpdated<T>(object? sender, T? e)
+    {
+        Type entityType = typeof(T);
+        string infoMessage = "";
+        Console.Clear();
+        if (entityType.Name == "Employee")
+        {
+            infoMessage = ($"\nPracownik:\n {e} \nzostał zmodyfikowany");
+        }
+        else if (entityType.Name == "Project")
+        {
+            infoMessage = ($"\nProjekt:\n {e} \nzostał zmodyfikowany");
         }
         Console.WriteLine(infoMessage);
         AddToLogFile(infoMessage);
